@@ -1,2 +1,60 @@
-__pycache__
-.env.local
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+.env
+venv/
+ENV/
+
+# Airflow
+airflow/logs/
+airflow/.env
+airflow/webserver_config.py
+airflow/airflow.db
+airflow/airflow-webserver.pid
+airflow.cfg
+unittests.cfg
+
+# MongoDB
+mongodb-data/
+
+# Data files
+data/
+etl_pipeline/data/
+hardware_*.json
+*.log
+*.csv
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Docker
+.docker/
+
+# Selenium
+chromedriver
+geckodriver
