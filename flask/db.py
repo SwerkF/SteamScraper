@@ -5,27 +5,25 @@ from dotenv import load_dotenv
 # Load environment variables
 load_dotenv()
 
-# MongoDB connection details
-MONGO_URI = os.getenv("MONGO_URI", "mongodb://admin:password@localhost:27017/")
+MONGO_URI = os.getenv("MONGO_URI", "mongodb://root:password@localhost:27017/")
 DB_NAME = os.getenv("DB_NAME", "steam_games")
 
-# Create a MongoDB client
 client = MongoClient(MONGO_URI)
 
-# Get database
 db = client[DB_NAME]
 
-# Collections
 games = db.games
-users = db.users
+cpus = db.cpus
+gpus = db.gpus
+memory = db.memory
+os = db.os
+games_requirements = db.games_requirements
 
 def get_database():
     return db
 
-# Test connection
 def test_connection():
     try:
-        # The ismaster command is cheap and does not require auth
         client.admin.command('ismaster')
         print("MongoDB connection successful")
         return True

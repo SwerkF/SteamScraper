@@ -18,25 +18,16 @@ export interface GameRequirements {
 export interface Cpu {
   id: number;
   name: string;
-  description: string;
-  image: string;
-  price: number;
 }
 
 export interface Memory {
   id: number;
   name: string;
-  description: string;
-  image: string;
-  price: number;
 }
 
 export interface Gpu {
   id: number;
   name: string;
-  description: string;
-  image: string;
-  price: number;
 }
 
 export interface Storage {
@@ -47,6 +38,4 @@ export interface Storage {
 export interface OS {
   id: number;
   name: string;
-  description: string;
-  image: string;
 }

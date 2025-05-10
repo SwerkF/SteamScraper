@@ -13,7 +13,12 @@ class SteamscrapyItem(scrapy.Item):
 
 class HardwareItem(scrapy.Item):
     hardware_type = scrapy.Field()
-    rank = scrapy.Field()
     name = scrapy.Field()
+    rank = scrapy.Field()
     price = scrapy.Field()
     timestamp = scrapy.Field()
+
+    id = scrapy.Field()
+    g3d_mark = scrapy.Field()
+
+    cpu_mark = scrapy.Field()

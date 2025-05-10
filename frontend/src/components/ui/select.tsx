@@ -52,8 +52,35 @@ function SelectContent({
   className,
   children,
   position = "popper",
+  withSearch = false,
+  onSearchChange,
   ...props
-}: React.ComponentProps<typeof SelectPrimitive.Content>) {
+}: React.ComponentProps<typeof SelectPrimitive.Content> & {
+  withSearch?: boolean;
+  onSearchChange?: (value: string) => void;
+}) {
+  const [search, setSearch] = React.useState("");
+
+  const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const value = e.target.value;
+    setSearch(value);
+    if (onSearchChange) {
+      onSearchChange(value);
+    }
+  };
+
+  const childrenWithSearch = React.useMemo(() => {
+    if (!withSearch || onSearchChange) return children;
+
+    // Only filter locally if no onSearchChange is provided
+    return React.Children.map(children, child => {
+      if (React.isValidElement(child) && typeof child.props.children === 'string') {
+        return child.props.children.toLowerCase().includes(search.toLowerCase()) ? child : null;
+      }
+      return child;
+    });
+  }, [children, search, withSearch, onSearchChange]);
+
   return (
     <SelectPrimitive.Portal>
       <SelectPrimitive.Content
@@ -68,6 +95,16 @@ function SelectContent({
         {...props}
       >
         <SelectScrollUpButton />
+        {withSearch && (
+          <div className="p-2 sticky top-0 bg-popover border-b">
+            <input
+              className="flex h-9 w-full rounded-md border border-input bg-transparent px-3 py-1 text-sm shadow-sm transition-colors placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring"
+              placeholder="Search..."
+              value={search}
+              onChange={handleSearchChange}
+            />
+          </div>
+        )}
         <SelectPrimitive.Viewport
           className={cn(
             "p-1",
@@ -75,7 +112,7 @@ function SelectContent({
               "h-[var(--radix-select-trigger-height)] w-full min-w-[var(--radix-select-trigger-width)] scroll-my-1"
           )}
         >
-          {children}
+          {withSearch && !onSearchChange ? childrenWithSearch : children}
         </SelectPrimitive.Viewport>
         <SelectScrollDownButton />
       </SelectPrimitive.Content>
