@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "ScrapyDB",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
