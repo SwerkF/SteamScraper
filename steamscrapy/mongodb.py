@@ -1,6 +1,13 @@
 from pymongo import MongoClient
 import os
 from dotenv import load_dotenv
+import logging
+
+# Désactiver les logs verbeux de PyMongo
+logging.getLogger("pymongo").setLevel(logging.WARNING)
+logging.getLogger("pymongo.connection").setLevel(logging.WARNING)
+logging.getLogger("pymongo.command").setLevel(logging.WARNING)
+logging.getLogger("pymongo.serverSelection").setLevel(logging.WARNING)
 
 load_dotenv()
 

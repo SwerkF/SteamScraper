@@ -8,6 +8,9 @@
 from itemadapter import ItemAdapter
 from steamscrapy.mongodb import db
 import datetime
+import logging
+
+logging.getLogger('scrapy').setLevel(logging.WARNING)
 
 
 class SteamscrapyPipeline:

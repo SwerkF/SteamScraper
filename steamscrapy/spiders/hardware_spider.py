@@ -1,6 +1,8 @@
 import scrapy
 import csv
 from steamscrapy.items import HardwareItem
+import logging
+logging.getLogger('scrapy').setLevel(logging.WARNING)
 
 class HardwareSpider(scrapy.Spider):
     name = "hardware"
@@ -33,13 +35,15 @@ class HardwareSpider(scrapy.Spider):
             yield from self.parse_cpu_data(response)
 
     def parse_gpu_data(self, response):
-        rows = response.css('table#cputable tr')
+        rows = response.css('table#cputable tr[id^="gpu"]')
 
-        for row in rows[1:]:
+        self.log(f'Found {len(rows)} GPU rows')
+
+        for row in rows:
+            gpu_id = row.attrib.get('id', '').replace('gpu', '')
+
             cells = row.css('td')
             if len(cells) >= 5:
-                gpu_id = row.attrib.get('id', '').replace('gpu', '')
-
                 name_link = cells[0].css('a')
                 gpu_name = name_link.css('::text').get('').strip()
 
@@ -50,18 +54,23 @@ class HardwareSpider(scrapy.Spider):
                 item['hardware_type'] = 'gpu'
                 item['name'] = gpu_name
                 item['rank'] = int(rank) if rank.isdigit() else 0
-
                 item['g3d_mark'] = g3d_mark
                 item['id'] = int(gpu_id) if gpu_id.isdigit() else 0
+
+                self.log(f'Extracted GPU: {gpu_name} (ID: {gpu_id}, Rank: {rank})')
 
                 yield item
 
         self.log(f'Extracted GPU data for MongoDB')
 
     def parse_cpu_data(self, response):
-        rows = response.css('table tr')
+        rows = response.css('table#cputable tr[id^="cpu"]')
 
-        for row in rows[1:]:
+        self.log(f'Found {len(rows)} CPU rows')
+
+        for row in rows:
+            cpu_id = row.attrib.get('id', '').replace('cpu', '')
+
             cells = row.css('td')
             if len(cells) >= 3:
                 name_link = cells[0].css('a')
@@ -74,8 +83,10 @@ class HardwareSpider(scrapy.Spider):
                 item['hardware_type'] = 'cpu'
                 item['name'] = cpu_name
                 item['rank'] = int(rank) if rank.isdigit() else 0
-
                 item['cpu_mark'] = cpu_mark
+                item['id'] = int(cpu_id) if cpu_id.isdigit() else 0
+
+                self.log(f'Extracted CPU: {cpu_name} (ID: {cpu_id}, Rank: {rank})')
 
                 yield item
 
