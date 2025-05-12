@@ -42,7 +42,7 @@ export default function App() {
   }, [filters]);
 
   const handleLoadMore = () => {
-    setFilters({ ...filters, page: filters.page ? filters.page + 1 : 1 });
+    setFilters({ ...filters, page: filters.page ? filters.page + 1 : 2 });
   };
 
   return (
@@ -59,14 +59,6 @@ export default function App() {
               vos préférences.
             </p>
             <div className="flex justify-between">
-              <div className="relative">
-                <Input
-                  type="search"
-                  placeholder="Rechercher un jeu..."
-                  className="pl-10 w-full md:w-96"
-                />
-                <Search className="absolute left-3 top-2.5 h-5 w-5 text-muted-foreground" />
-              </div>
               <p className="text-muted-foreground text-right">
                 Affichage de {allGames.length} jeux sur {games?.count}
               </p>

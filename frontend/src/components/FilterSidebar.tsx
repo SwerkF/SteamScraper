@@ -1,5 +1,6 @@
 'use client';
 
+import React, { useEffect } from 'react';
 import { Slider } from '@/components/ui/slider';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
@@ -28,8 +29,8 @@ import {
   X,
 } from 'lucide-react';
 import { useGetFilters } from '@/api/queries/filterQueries';
-import React from 'react';
 import type { GameFilter } from '@/models/utils';
+
 export default function FilterSidebar({
   onApplyFilters,
 }: {
@@ -41,59 +42,33 @@ export default function FilterSidebar({
   const [gpuSearch, setGpuSearch] = React.useState('');
   const [ramSearch, setRamSearch] = React.useState('');
   const [osSearch, setOsSearch] = React.useState('');
+
+  const [cpuQuery, setCpuQuery] = React.useState('');
+  const [gpuQuery, setGpuQuery] = React.useState('');
+  const [ramQuery, setRamQuery] = React.useState('');
+  const [osQuery, setOsQuery] = React.useState('');
+
   const [priceLow, setPriceLow] = React.useState(0);
   const [priceHigh, setPriceHigh] = React.useState(100);
   const [search, setSearch] = React.useState('');
-
-  const filteredCpus = React.useMemo(() => {
-    if (!filters?.data?.cpu) return [];
-    if (!cpuSearch) return filters.data.cpu.slice(0, 50);
-
-    return filters.data.cpu.filter(cpu =>
-      cpu.name.toLowerCase().includes(cpuSearch.toLowerCase())
-    );
-  }, [filters?.data?.cpu, cpuSearch]);
-
-  const filteredGpus = React.useMemo(() => {
-    if (!filters?.data?.gpu) return [];
-    if (!gpuSearch) return filters.data.gpu.slice(0, 50);
-
-    return filters.data.gpu.filter(gpu =>
-      gpu.name.toLowerCase().includes(gpuSearch.toLowerCase())
-    );
-  }, [filters?.data?.gpu, gpuSearch]);
-
-  const filteredRam = React.useMemo(() => {
-    if (!filters?.data?.memory) return [];
-    if (!ramSearch) return filters.data.memory;
-
-    return filters.data.memory.filter(ram =>
-      ram.name.toLowerCase().includes(ramSearch.toLowerCase())
-    );
-  }, [filters?.data?.memory, ramSearch]);
-
-  const filteredOs = React.useMemo(() => {
-    if (!filters?.data?.os) return [];
-    if (!osSearch) return filters.data.os;
-
-    return filters.data.os.filter(os =>
-      os.name.toLowerCase().includes(osSearch.toLowerCase())
-    );
-  }, [filters?.data?.os, osSearch]);
 
   const handleClearFilter = (type: 'cpu' | 'gpu' | 'memory' | 'os') => {
     switch (type) {
       case 'cpu':
         setCpuSearch('');
+        setCpuQuery('');
         break;
       case 'gpu':
         setGpuSearch('');
+        setGpuQuery('');
         break;
       case 'memory':
         setRamSearch('');
+        setRamQuery('');
         break;
       case 'os':
         setOsSearch('');
+        setOsQuery('');
         break;
     }
   };
@@ -103,15 +78,6 @@ export default function FilterSidebar({
   }
 
   const handleApplyFilters = () => {
-    console.log(
-      cpuSearch,
-      gpuSearch,
-      ramSearch,
-      osSearch,
-      search,
-      priceLow,
-      priceHigh
-    );
     onApplyFilters({
       cpu: cpuSearch,
       gpu: gpuSearch,
@@ -174,13 +140,20 @@ export default function FilterSidebar({
                         </SelectTrigger>
                         <SelectContent
                           withSearch
-                          onSearchChange={value => setCpuSearch(value)}
+                          onSearchChange={value => setCpuQuery(value)}
                         >
-                          {filteredCpus.map(item => (
-                            <SelectItem key={item.id} value={item.name}>
-                              {item.name}
-                            </SelectItem>
-                          ))}
+                          {filters.data.cpu
+                            .filter(cpu =>
+                              cpu.name
+                                .toLowerCase()
+                                .includes(cpuQuery.toLowerCase())
+                            )
+                            .slice(0, 20)
+                            .map(item => (
+                              <SelectItem key={item.id} value={item.name}>
+                                {item.name}
+                              </SelectItem>
+                            ))}
                         </SelectContent>
                       </Select>
                     )}
@@ -210,13 +183,20 @@ export default function FilterSidebar({
                         </SelectTrigger>
                         <SelectContent
                           withSearch
-                          onSearchChange={value => setGpuSearch(value)}
+                          onSearchChange={value => setGpuQuery(value)}
                         >
-                          {filteredGpus.map(item => (
-                            <SelectItem key={item.id} value={item.name}>
-                              {item.name}
-                            </SelectItem>
-                          ))}
+                          {filters.data.gpu
+                            .filter(gpu =>
+                              gpu.name
+                                .toLowerCase()
+                                .includes(gpuQuery.toLowerCase())
+                            )
+                            .slice(0, 20)
+                            .map(item => (
+                              <SelectItem key={item.id} value={item.name}>
+                                {item.name}
+                              </SelectItem>
+                            ))}
                         </SelectContent>
                       </Select>
                     )}
@@ -246,13 +226,20 @@ export default function FilterSidebar({
                         </SelectTrigger>
                         <SelectContent
                           withSearch
-                          onSearchChange={value => setRamSearch(value)}
+                          onSearchChange={value => setRamQuery(value)}
                         >
-                          {filteredRam.map(item => (
-                            <SelectItem key={item.id} value={item.name}>
-                              {item.name}
-                            </SelectItem>
-                          ))}
+                          {filters.data.memory
+                            .filter(ram =>
+                              ram.name
+                                .toLowerCase()
+                                .includes(ramQuery.toLowerCase())
+                            )
+                            .slice(0, 20)
+                            .map(item => (
+                              <SelectItem key={item.id} value={item.name}>
+                                {item.name}
+                              </SelectItem>
+                            ))}
                         </SelectContent>
                       </Select>
                     )}
@@ -282,13 +269,20 @@ export default function FilterSidebar({
                         </SelectTrigger>
                         <SelectContent
                           withSearch
-                          onSearchChange={value => setOsSearch(value)}
+                          onSearchChange={value => setOsQuery(value)}
                         >
-                          {filteredOs.map(item => (
-                            <SelectItem key={item.id} value={item.name}>
-                              {item.name}
-                            </SelectItem>
-                          ))}
+                          {filters.data.os
+                            .filter(os =>
+                              os.name
+                                .toLowerCase()
+                                .includes(osQuery.toLowerCase())
+                            )
+                            .slice(0, 20)
+                            .map(item => (
+                              <SelectItem key={item.id} value={item.name}>
+                                {item.name}
+                              </SelectItem>
+                            ))}
                         </SelectContent>
                       </Select>
                     )}
@@ -310,12 +304,13 @@ export default function FilterSidebar({
                   </div>
                   <Slider
                     defaultValue={[0, 500]}
-                    min={0}
+                    min={1}
                     max={500}
                     step={1}
+                    value={[priceLow, priceHigh]}
                     onValueChange={value => {
                       setPriceLow(value[0]);
-                      setPriceHigh(value[1]);
+                      setPriceHigh(value[1] || 0);
                     }}
                   />
                   <div className="flex gap-2">
@@ -323,16 +318,16 @@ export default function FilterSidebar({
                       type="number"
                       placeholder="Min"
                       value={priceLow}
-                      min={0}
-                      max={100}
+                      min={1}
+                      max={500}
                       onChange={e => setPriceLow(Number(e.target.value))}
                     />
                     <Input
                       type="number"
                       placeholder="Max"
                       value={priceHigh}
-                      min={0}
-                      max={100}
+                      min={1}
+                      max={500}
                       onChange={e => setPriceHigh(Number(e.target.value))}
                     />
                   </div>
