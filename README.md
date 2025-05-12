@@ -4,6 +4,10 @@
 
 Cette application est un système de scraping et d'analyse de jeux Steam, composé de plusieurs parties :
 
+## Bug connu
+
+Le composant Select de shadcn n'enlève pas les anciennes options lorsqu'on les remplace par les nouvelles lors du search, les nouvelles sont tout en bas. En cliquant en dehors du composant, les options sont mises à jour.
+
 ### ETL Pipeline
 
 - Un pipeline ETL (Extract, Transform, Load) qui :
