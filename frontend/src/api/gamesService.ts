@@ -17,6 +17,7 @@ export class GamesService {
       paramsString.set('pricelow', params.pricelow.toString());
     if (params.pricehigh)
       paramsString.set('pricehigh', params.pricehigh.toString());
+    if (params.page) paramsString.set('page', params.page.toString());
     return api.fetchRequest(
       this.baseUrl + '?' + paramsString.toString(),
       'GET',

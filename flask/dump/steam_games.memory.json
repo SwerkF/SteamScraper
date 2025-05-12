@@ -1,0 +1,83 @@
+[{
+  "_id": {
+    "$oid": "681f4a4d6895aa8af0d861e0"
+  },
+  "id": 1,
+  "name": "4GB RAM"
+},
+{
+  "_id": {
+    "$oid": "681f4a4d6895aa8af0d861e1"
+  },
+  "id": 2,
+  "name": "8GB RAM"
+},
+{
+  "_id": {
+    "$oid": "681f4a4d6895aa8af0d861e2"
+  },
+  "id": 3,
+  "name": "16GB RAM"
+},
+{
+  "_id": {
+    "$oid": "681f4a4d6895aa8af0d861e3"
+  },
+  "id": 4,
+  "name": "32GB RAM"
+},
+{
+  "_id": {
+    "$oid": "681f4a4d6895aa8af0d861e4"
+  },
+  "id": 5,
+  "name": "64GB RAM"
+},
+{
+  "_id": {
+    "$oid": "6821bc547c9fa7aadc193975"
+  },
+  "name": "6GB RAM"
+},
+{
+  "_id": {
+    "$oid": "6821bc547c9fa7aadc193977"
+  },
+  "name": "1GB RAM"
+},
+{
+  "_id": {
+    "$oid": "6821bc547c9fa7aadc19397d"
+  },
+  "name": "1024 MB de mémoire"
+},
+{
+  "_id": {
+    "$oid": "68220e44ae34e035bee8ec05"
+  },
+  "name": "2GB RAM"
+},
+{
+  "_id": {
+    "$oid": "68220e44ae34e035bee8ec07"
+  },
+  "name": "12GB RAM"
+},
+{
+  "_id": {
+    "$oid": "68220e44ae34e035bee8ec0d"
+  },
+  "name": "512 MB de mémoire"
+},
+{
+  "_id": {
+    "$oid": "68220e44ae34e035bee8ec0e"
+  },
+  "name": "4000 MB de mémoire"
+},
+{
+  "_id": {
+    "$oid": "68220e44ae34e035bee8ec0f"
+  },
+  "name": "512 Mo de RAM"
+}]

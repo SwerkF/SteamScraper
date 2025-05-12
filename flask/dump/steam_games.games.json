@@ -1,0 +1,3925 @@
+[{
+  "_id": {
+    "$oid": "68220e441e51a5ac031eea28"
+  },
+  "name": "Counter-Strike 2",
+  "app_id": "730",
+  "developer": "Valve",
+  "image_url": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/730/header.jpg?t=1745368595",
+  "price": 0,
+  "price_display": "Free-to-play",
+  "publisher": "Valve",
+  "release_date": "21 August 2012 – 17:00:00 UTC (12.8 years ago)",
+  "store_url": "https://store.steampowered.com/app/730/?curator_clanid=4777282&utm_source=SteamDB",
+  "supported_systems": "Windows Linux",
+  "system_requirements": {
+    "win": {
+      "os": {
+        "name": "Windows 10",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e5"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "processeur Intel® Core™ i5-750 à 4 threads (ou mieux)",
+        "models": [
+          "Intel Core i5-750"
+        ],
+        "refs": [
+          {
+            "$oid": "6821c0673739a8dbd7eab7da"
+          }
+        ]
+      },
+      "ram": {
+        "name": "8GB RAM",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e1"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "la carte graphique doit avoir au moins 1 Go de mémoire et être compatible avec DirectX 11 et Shader Model 5.0",
+        "models": [
+          "1 Go VRAM"
+        ],
+        "refs": []
+      },
+      "DirectX": "Version 11",
+      "Espace disque": "85 GB d'espace disque disponible"
+    },
+    "linux": {
+      "os": {
+        "name": "Linux",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e7"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "Processeur Intel® Core™ i5-750 à 4 cœurs (ou mieux)",
+        "models": [
+          "Intel Core i5-750"
+        ],
+        "refs": [
+          {
+            "$oid": "6821c0673739a8dbd7eab7da"
+          }
+        ]
+      },
+      "ram": {
+        "name": "8GB RAM",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e1"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "vivement recommandée",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "Espace disque": "85 GB d'espace disque disponible"
+    }
+  },
+  "technologies": "Source2 Engine"
+},
+{
+  "_id": {
+    "$oid": "68220e441e51a5ac031eea29"
+  },
+  "name": "PUBG: BATTLEGROUNDS",
+  "app_id": "578080",
+  "developer": "PUBG Corporation",
+  "image_url": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/578080/841ea38bc58cabb70aef65365cf50bc2d79329d9/header.jpg?t=1746590920",
+  "price": 0,
+  "price_display": "Free-to-play",
+  "publisher": "KRAFTON, Inc.",
+  "release_date": "21 December 2017 – 08:05:00 UTC (7.4 years ago)",
+  "store_url": "https://store.steampowered.com/app/578080/?curator_clanid=4777282&utm_source=SteamDB",
+  "supported_systems": "Windows",
+  "system_requirements": {
+    "win": {
+      "os": {
+        "name": "Windows 10",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e5"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "Intel Core i5-4430 / AMD FX-6300",
+        "models": [
+          "Intel Core i5-4430",
+          "AMD FX-6300"
+        ],
+        "refs": [
+          {
+            "$oid": "6821c0673739a8dbd7eab728"
+          },
+          {
+            "$oid": "6821c0623739a8dbd7eaa87c"
+          }
+        ]
+      },
+      "ram": {
+        "name": "8GB RAM",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e1"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "NVIDIA GeForce GTX 960 2GB / AMD Radeon R7 370 2GB",
+        "models": [
+          "NVIDIA GeForce GTX 960",
+          "GeForce GTX 960",
+          "AMD Radeon R7 370",
+          "Radeon R7 370"
+        ],
+        "refs": [
+          {
+            "$oid": "6821c0613739a8dbd7eaa814"
+          },
+          {
+            "$oid": "6821c0613739a8dbd7eaa814"
+          },
+          {
+            "$oid": "6821c0663739a8dbd7eab33d"
+          },
+          {
+            "$oid": "6821c0663739a8dbd7eab33d"
+          }
+        ]
+      },
+      "DirectX": "Version 11",
+      "Réseau": "connexion internet haut débit",
+      "Espace disque": "40 GB d'espace disque disponible"
+    }
+  },
+  "technologies": "BattlEye AntiCheat, Unreal Engine, EpicOnlineServices SDK"
+},
+{
+  "_id": {
+    "$oid": "68220e441e51a5ac031eea2a"
+  },
+  "name": "Dota 2",
+  "app_id": "570",
+  "developer": "Valve",
+  "image_url": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/570/header.jpg?t=1745368590",
+  "price": 0,
+  "price_display": "Free-to-play",
+  "publisher": "Valve",
+  "release_date": "9 July 2013 – 17:00:00 UTC (11.8 years ago)",
+  "store_url": "https://store.steampowered.com/app/570/?curator_clanid=4777282&utm_source=SteamDB",
+  "supported_systems": "Windows macOS Linux",
+  "system_requirements": {
+    "win": {
+      "os": {
+        "name": "Windows 7",
+        "refs": [
+          {
+            "$oid": "6821b438345b280235adc554"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "Intel ou AMD Dual-Core à 2,8 GHz",
+        "models": [
+          "any",
+          "2.8 GHz"
+        ],
+        "refs": []
+      },
+      "ram": {
+        "name": "4GB RAM",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e0"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "compatible avec DirectX",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "DirectX": "Version 11",
+      "Réseau": "connexion internet haut débit",
+      "Espace disque": "60 GB d'espace disque disponible"
+    },
+    "mac": {
+      "os": {
+        "name": "MacOS",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e8"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "Intel Dual-Core",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "ram": {
+        "name": "4GB RAM",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e0"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "NVIDIA 320M (ou version ultérieure), Radeon HD 2400 (ou version ultérieure) ou Intel HD 3000 (ou version ultérieure)",
+        "models": [
+          "Intel HD 3000",
+          "Radeon HD 2400"
+        ],
+        "refs": [
+          {
+            "$oid": "6821c0623739a8dbd7eaaa00"
+          },
+          {
+            "$oid": "6821c0643739a8dbd7eaae85"
+          }
+        ]
+      },
+      "Réseau": "connexion internet haut débit",
+      "Espace disque": "60 GB d'espace disque disponible"
+    },
+    "linux": {
+      "os": {
+        "name": "Linux",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e7"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "Intel ou AMD Dual-Core à 2,8 GHz",
+        "models": [
+          "any",
+          "2.8 GHz"
+        ],
+        "refs": []
+      },
+      "ram": {
+        "name": "4GB RAM",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e0"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "compatible avec OpenAL",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "Réseau": "connexion internet haut débit",
+      "Espace disque": "60 GB d'espace disque disponible"
+    }
+  },
+  "technologies": "Source2 Engine"
+},
+{
+  "_id": {
+    "$oid": "68220e441e51a5ac031eea2b"
+  },
+  "name": "Apex Legends",
+  "app_id": "1172470",
+  "developer": "Respawn",
+  "image_url": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1172470/b7e2d0c4b5f34b6751269c359070f706ff6d59fe/header.jpg?t=1746554828",
+  "price": 0,
+  "price_display": "Free-to-play",
+  "publisher": "Electronic Arts",
+  "release_date": "5 November 2020 – 04:00:00 UTC (4.5 years ago)",
+  "store_url": "https://store.steampowered.com/app/1172470/?curator_clanid=4777282&utm_source=SteamDB",
+  "supported_systems": "Windows",
+  "system_requirements": {
+    "win": {
+      "os": {
+        "name": "Windows 10",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e5"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "AMD FX 4350 or Equivalent, Intel Core i3 6300 or Equivalent",
+        "models": [
+          "Intel Core i3-6300"
+        ],
+        "refs": [
+          {
+            "$oid": "6821c0663739a8dbd7eab53d"
+          }
+        ]
+      },
+      "ram": {
+        "name": "6GB RAM",
+        "refs": [
+          {
+            "$oid": "6821bc547c9fa7aadc193975"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "AMD Radeon™ HD 7790, NVIDIA GeForce® GTX 950",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "DirectX": "Version 12",
+      "Réseau": "connexion internet haut débit",
+      "Espace disque": "75 GB d'espace disque disponible",
+      "Notes supplémentaires": "~3.8GB for 1 localized language"
+    }
+  },
+  "technologies": "EasyAntiCheat AntiCheat, EpicOnlineServices SDK"
+},
+{
+  "_id": {
+    "$oid": "68220e441e51a5ac031eea2c"
+  },
+  "name": "Delta Force",
+  "app_id": "2507950",
+  "developer": "Team Jade",
+  "image_url": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2507950/c620569202a10974cea6668a070e6a59d2cb2c3e/header.jpg?t=1746587341",
+  "price": 0,
+  "price_display": "Free-to-play",
+  "publisher": "TiMi Studio Group",
+  "release_date": "4 December 2024 – 23:34:08 UTC (5 months ago)",
+  "store_url": "https://store.steampowered.com/app/2507950/?curator_clanid=4777282&utm_source=SteamDB",
+  "supported_systems": "Windows",
+  "system_requirements": {
+    "win": {
+      "os": {
+        "name": "Windows 10",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e5"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "Intel Core i3-4150 / AMD FX-6300",
+        "models": [
+          "Intel Core i3-4150",
+          "AMD FX-6300"
+        ],
+        "refs": [
+          {
+            "$oid": "6821c0663739a8dbd7eab4f9"
+          },
+          {
+            "$oid": "6821c0623739a8dbd7eaa87c"
+          }
+        ]
+      },
+      "ram": {
+        "name": "8GB RAM",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e1"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "Nvidia Geforce GTX 660 / AMD HD 7870 / Intel Arc A380",
+        "models": [
+          "Nvidia Geforce GTX 660",
+          "Geforce GTX 660"
+        ],
+        "refs": [
+          {
+            "$oid": "6821c0603739a8dbd7eaa51e"
+          },
+          {
+            "$oid": "6821c0603739a8dbd7eaa51e"
+          }
+        ]
+      },
+      "DirectX": "Version 12",
+      "Réseau": "connexion internet haut débit",
+      "Espace disque": "88 GB d'espace disque disponible"
+    }
+  },
+  "technologies": "AntiCheatExpert AntiCheat, Unreal Engine, EpicOnlineServices SDK"
+},
+{
+  "_id": {
+    "$oid": "68220e441e51a5ac031eea2d"
+  },
+  "name": "NARAKA: BLADEPOINT",
+  "app_id": "1203220",
+  "developer": "24 Entertainment",
+  "image_url": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1203220/69531442db0cbb2581bfe842a24e270536648b5b/header.jpg?t=1745907587",
+  "price": 0,
+  "price_display": "Free-to-play",
+  "publisher": "NetEase Games Global",
+  "release_date": "12 August 2021 – 01:59:00 UTC (3.8 years ago)",
+  "store_url": "https://store.steampowered.com/app/1203220/?curator_clanid=4777282&utm_source=SteamDB",
+  "supported_systems": "Windows",
+  "system_requirements": {
+    "win": {
+      "os": {
+        "name": "Windows 7",
+        "refs": [
+          {
+            "$oid": "6821b438345b280235adc554"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "Intel i5 4th generation or AMD FX 6300 or equivalent",
+        "models": [
+          "any",
+          "AMD FX 6300"
+        ],
+        "refs": [
+          {
+            "$oid": "6821f43710e9631c90274a98"
+          }
+        ]
+      },
+      "ram": {
+        "name": "8GB RAM",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e1"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "NVIDIA GeForce GTX 750TI, Intel Arc A380, AMD HD 6950 or equivalent",
+        "models": [
+          "NVIDIA GeForce GTX 750TI",
+          "GeForce GTX 750TI"
+        ],
+        "refs": [
+          {
+            "$oid": "6821c0603739a8dbd7eaa556"
+          },
+          {
+            "$oid": "6821c0603739a8dbd7eaa556"
+          }
+        ]
+      },
+      "DirectX": "Version 11",
+      "Réseau": "connexion internet haut débit",
+      "Espace disque": "55 GB d'espace disque disponible",
+      "Notes supplémentaires": "a) Can run at 720p/60fps; b) We advise you install the game on an SSD for a more streamlined experience. c) Requires “Windows Memory integrity and VBS enablement” to be disabled"
+    }
+  },
+  "technologies": "Unity Engine"
+},
+{
+  "_id": {
+    "$oid": "68220e441e51a5ac031eea2e"
+  },
+  "name": "Bongo Cat",
+  "app_id": "3419430",
+  "developer": "Marcel Zurawka",
+  "image_url": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3419430/e8c9b865822618f3d3cd07757ddc60740c8e54b0/header.jpg?t=1745311603",
+  "price": 0,
+  "price_display": "Free-to-play",
+  "publisher": "Irox Games",
+  "release_date": "5 March 2025 – 08:00:23 UTC (2 months ago)",
+  "store_url": "https://store.steampowered.com/app/3419430/?curator_clanid=4777282&utm_source=SteamDB",
+  "supported_systems": "Windows",
+  "system_requirements": {
+    "win": {
+      "os": {
+        "name": "Windows 10",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e5"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "Intel i5 5200 or AMD Ryzen 5 5600X",
+        "models": [
+          "Intel Core i5-5200",
+          "AMD Ryzen 5 5600X"
+        ],
+        "refs": [
+          {
+            "$oid": "6821c0673739a8dbd7eab765"
+          },
+          {
+            "$oid": "6821c0633739a8dbd7eaaba8"
+          }
+        ]
+      },
+      "ram": {
+        "name": "1GB RAM",
+        "refs": [
+          {
+            "$oid": "6821bc547c9fa7aadc193977"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "Any",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "Réseau": "connexion internet haut débit",
+      "Espace disque": "100 MB d'espace disque disponible"
+    }
+  },
+  "technologies": "Unity Engine"
+},
+{
+  "_id": {
+    "$oid": "68220e441e51a5ac031eea2f"
+  },
+  "name": "Rust",
+  "app_id": "252490",
+  "developer": "Facepunch Studios",
+  "image_url": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/252490/header.jpg?t=1746776782",
+  "price": 39.99,
+  "price_display": "39,99€",
+  "publisher": "Facepunch Studios",
+  "release_date": "8 February 2018 – 17:52:00 UTC (7.3 years ago)",
+  "store_url": "https://store.steampowered.com/app/252490/?curator_clanid=4777282&utm_source=SteamDB",
+  "supported_systems": "Windows macOS",
+  "system_requirements": {
+    "win": {
+      "os": {
+        "name": "Windows 11",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e6"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "Intel Core i7-4790K / AMD Ryzen 5 2600 or better",
+        "models": [
+          "Intel Core i7-4790K",
+          "AMD Ryzen 5 2600"
+        ],
+        "refs": [
+          {
+            "$oid": "6821c0683739a8dbd7eab922"
+          },
+          {
+            "$oid": "6821c0633739a8dbd7eaab63"
+          }
+        ]
+      },
+      "ram": {
+        "name": "16GB RAM",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e2"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "RTX 3060 / RX 570 Series or better",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "DirectX": "Version 12",
+      "Réseau": "connexion internet haut débit",
+      "Espace disque": "40 GB d'espace disque disponible",
+      "Notes supplémentaires": "SSD Required"
+    },
+    "mac": {
+      "os": {
+        "name": "MacOS",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e8"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "Apple M1 Pro / Max / Ultra",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "ram": {
+        "name": "16GB RAM",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e2"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "Apple M1 Pro / Max / Ultra",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "Réseau": "connexion internet haut débit",
+      "Espace disque": "40 GB d'espace disque disponible"
+    }
+  },
+  "technologies": "EasyAntiCheat AntiCheat, Unity Engine, EpicOnlineServices SDK"
+},
+{
+  "_id": {
+    "$oid": "68220e441e51a5ac031eea30"
+  },
+  "name": "Wallpaper Engine",
+  "app_id": "431960",
+  "developer": "Wallpaper Engine Team",
+  "image_url": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/431960/header.jpg?t=1739211362",
+  "price": 4.99,
+  "price_display": "4,99€",
+  "publisher": "Wallpaper Engine Team",
+  "release_date": "16 November 2018 – 18:03:05 UTC (6.5 years ago)",
+  "store_url": "https://store.steampowered.com/app/431960/?curator_clanid=4777282&utm_source=SteamDB",
+  "supported_systems": "Windows",
+  "system_requirements": {
+    "win": {
+      "os": {
+        "name": "Windows 11",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e6"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "1.66 GHz Intel i5 or equivalent",
+        "models": [
+          "1.66 GHz"
+        ],
+        "refs": []
+      },
+      "ram": {
+        "name": "1024 MB de mémoire",
+        "refs": [
+          {
+            "$oid": "6821bc547c9fa7aadc19397d"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "HD Graphics 4000 or above",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "DirectX": "Version 11",
+      "Espace disque": "512 MB d'espace disque disponible",
+      "Notes supplémentaires": "Les versions Windows N requièrent le 'Media Feature Pack' de Microsoft."
+    }
+  },
+  "technologies": "Unity Engine"
+},
+{
+  "_id": {
+    "$oid": "68220e441e51a5ac031eea31"
+  },
+  "name": "War Thunder",
+  "app_id": "236390",
+  "developer": "Gaijin Entertainment",
+  "image_url": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/236390/143bb936a24b8dfb7a8eadcb7173e9ab5bc1fa62/header.jpg?t=1746626432",
+  "price": 0,
+  "price_display": "Free-to-play",
+  "publisher": "Gaijin Network Ltd",
+  "release_date": "15 August 2013 – 12:22:00 UTC (11.8 years ago)",
+  "store_url": "https://store.steampowered.com/app/236390/?curator_clanid=4777282&utm_source=SteamDB",
+  "supported_systems": "Windows macOS Linux",
+  "system_requirements": {
+    "win": {
+      "os": {
+        "name": "Windows 10",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e5"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "Intel Core i5 or Ryzen 5 3600 or better",
+        "models": [
+          "Intel Core i5"
+        ],
+        "refs": []
+      },
+      "ram": {
+        "name": "16GB RAM",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e2"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "DirectX 11 level video card or higher and drivers: Nvidia GeForce 1060 and higher, Radeon RX 570 and higher",
+        "models": [
+          "Nvidia GeForce 1060",
+          "GeForce 1060",
+          "Radeon RX 570"
+        ],
+        "refs": [
+          {
+            "$oid": "6821c0613739a8dbd7eaa74f"
+          },
+          {
+            "$oid": "6821c0613739a8dbd7eaa74f"
+          },
+          {
+            "$oid": "6821c0633739a8dbd7eaab8b"
+          }
+        ]
+      },
+      "DirectX": "Version 12",
+      "Réseau": "connexion internet haut débit",
+      "Espace disque": "95 GB d'espace disque disponible",
+      "Prise en charge VR": "SteamVR. Keyboard or gamepad required"
+    },
+    "mac": {
+      "os": {
+        "name": "os big sur v. 10.16 or newer",
+        "refs": [
+          {
+            "$oid": "68220e44ae34e035bee8ec04"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "Intel Core i7 (Xeon processors not supported)",
+        "models": [
+          "Intel Core i7"
+        ],
+        "refs": []
+      },
+      "ram": {
+        "name": "8GB RAM",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e1"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "Radeon Vega II or higher with Metal support",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "Réseau": "connexion internet haut débit",
+      "Espace disque": "95 GB d'espace disque disponible"
+    },
+    "linux": {
+      "os": {
+        "name": "Linux",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e7"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "Intel Core i7",
+        "models": [
+          "Intel Core i7"
+        ],
+        "refs": []
+      },
+      "ram": {
+        "name": "16GB RAM",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e2"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "NVIDIA 1060 with latest proprietary drivers (not older than 6 months) / similar AMD (Radeon RX 570) with latest proprietary drivers (not older than 6 months) with Vulkan support.",
+        "models": [
+          "Radeon RX 570"
+        ],
+        "refs": [
+          {
+            "$oid": "6821c0633739a8dbd7eaab8b"
+          }
+        ]
+      },
+      "Réseau": "connexion internet haut débit",
+      "Espace disque": "95 GB d'espace disque disponible"
+    }
+  },
+  "technologies": "BattlEye AntiCheat, EasyAntiCheat AntiCheat, Gaijin Launcher"
+},
+{
+  "_id": {
+    "$oid": "68220e441e51a5ac031eea32"
+  },
+  "name": "Grand Theft Auto V Legacy",
+  "app_id": "271590",
+  "developer": "Rockstar North",
+  "image_url": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/271590/header.jpg?t=1741120008",
+  "price": 0,
+  "price_display": null,
+  "publisher": "Rockstar Games",
+  "release_date": "13 April 2015 – 23:00:00 UTC (10.1 years ago)",
+  "store_url": "https://store.steampowered.com/app/271590/?curator_clanid=4777282&utm_source=SteamDB",
+  "supported_systems": "Windows",
+  "system_requirements": {
+    "win": {
+      "os": {
+        "name": "Windows 10",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e5"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "Intel Core 2 Quad CPU Q6600 @ 2,40 GHz (4 CPU) / AMD Phenom 9850 Quad-Core Processor (4 CPU) @ 2,5 GHz",
+        "models": [
+          "2.40 GHz",
+          "2.5 GHz"
+        ],
+        "refs": []
+      },
+      "ram": {
+        "name": "4GB RAM",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e0"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "100% compatible avec DirectX 10",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "Espace disque": "120 GB d'espace disque disponible",
+      "Notes supplémentaires": "Avec le temps, le contenu téléchargeable et les mises à jour modifieront les configurations nécessaires pour ce jeu. Consultez le fabricant de votre matériel et rendez-vous sur pour des informations sur la compatibilité actuelle. Toute spécification non indiquée ici ainsi que certains composants système comme les chipsets pour ordinateurs portables, les cartes intégrées et les cartes graphiques AGP pourraient ne pas être compatibles. Autres éléments nécessaires : l'installation et le jeu en ligne nécessitent une connexion au Rockstar Games Social Club (13 ans et plus). Une connexion Internet est nécessaire pour l'activation, le jeu en ligne et les vérifications périodiques. L'installation de logiciels comme la plateforme Rockstar Games Social Club, DirectX, Chrome et Microsoft Visual C++ 2008 sp1 Redistributable Package, est nécessaire, ainsi que l'installation d'un logiciel d'authentification qui reconnaît votre matériel pour vous identifier, gérer les droits numériques, le système et autres actions relatives à l'assistance. ENREGISTREMENT DU CODE SÉRIE À USAGE UNIQUE VIA INTERNET REQUIS. ENREGISTREMENT LIMITÉ À UN COMPTE ROCKSTAR GAMES SOCIAL CLUB (13 ANS ET PLUS) PAR CODE SÉRIE. CONNEXION LIMITÉE À UN SEUL PC À LA FOIS PAR COMPTE SOCIAL CLUB. CODE(S) SÉRIE NON-TRANSFÉRABLE(S) UNE FOIS UTILISÉ(S). LES COMPTES SOCIAL CLUB NE SONT PAS TRANSFÉRABLES. Conditions de partenariat : veuillez consulter les conditions d'utilisation de ce site avant d'acheter ce logiciel."
+    }
+  },
+  "technologies": "BattlEye AntiCheat, RAGE Engine, Rockstar Launcher"
+},
+{
+  "_id": {
+    "$oid": "68220e441e51a5ac031eea33"
+  },
+  "name": "Stardew Valley",
+  "app_id": "413150",
+  "developer": "ConcernedApe",
+  "image_url": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/413150/header.jpg?t=1711128146",
+  "price": 13.99,
+  "price_display": "13,99€",
+  "publisher": "ConcernedApe",
+  "release_date": "26 February 2016 – 17:59:00 UTC (9.3 years ago)",
+  "store_url": "https://store.steampowered.com/app/413150/?curator_clanid=4777282&utm_source=SteamDB",
+  "supported_systems": "Windows macOS Linux",
+  "system_requirements": {
+    "win": {
+      "os": {
+        "name": "Windows 10",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e5"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "2 Ghz",
+        "models": [
+          "2 GHz"
+        ],
+        "refs": []
+      },
+      "ram": {
+        "name": "2GB RAM",
+        "refs": [
+          {
+            "$oid": "68220e44ae34e035bee8ec05"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "256 mb video memory, shader model 3.0+",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "DirectX": "Version 10",
+      "Espace disque": "500 MB d'espace disque disponible"
+    },
+    "mac": {
+      "os": {
+        "name": "MacOS",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e8"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "2 Ghz",
+        "models": [
+          "2 GHz"
+        ],
+        "refs": []
+      },
+      "ram": {
+        "name": "2GB RAM",
+        "refs": [
+          {
+            "$oid": "68220e44ae34e035bee8ec05"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "256 mb video memory, OpenGL 2",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "Espace disque": "500 MB d'espace disque disponible"
+    },
+    "linux": {
+      "os": {
+        "name": "Linux",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e7"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "2 Ghz",
+        "models": [
+          "2 GHz"
+        ],
+        "refs": []
+      },
+      "ram": {
+        "name": "2GB RAM",
+        "refs": [
+          {
+            "$oid": "68220e44ae34e035bee8ec05"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "256 mb video memory, OpenGL 2",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "Espace disque": "500 MB d'espace disque disponible"
+    }
+  },
+  "technologies": "MonoGame Engine, XNA Engine"
+},
+{
+  "_id": {
+    "$oid": "68220e441e51a5ac031eea34"
+  },
+  "name": "Clair Obscur: Expedition 33",
+  "app_id": "1903340",
+  "developer": "Sandfall Interactive",
+  "image_url": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1903340/be3305b02d4db0dffa3458537118423bf2792d7e/header.jpg?t=1746546713",
+  "price": 49.99,
+  "price_display": "49,99€",
+  "publisher": "Kepler Interactive",
+  "release_date": "24 April 2025 – 07:00:06 UTC (18 days ago)",
+  "store_url": "https://store.steampowered.com/app/1903340/?curator_clanid=4777282&utm_source=SteamDB",
+  "supported_systems": "Windows",
+  "system_requirements": {
+    "win": {
+      "os": {
+        "name": "Windows 10",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e5"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "Intel Core i7-8700K / AMD Ryzen 5 1600X",
+        "models": [
+          "Intel Core i7-8700K",
+          "AMD Ryzen 5 1600X"
+        ],
+        "refs": [
+          {
+            "$oid": "6821c0683739a8dbd7eab989"
+          },
+          {
+            "$oid": "6821c0633739a8dbd7eaab5a"
+          }
+        ]
+      },
+      "ram": {
+        "name": "8GB RAM",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e1"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "NVIDIA GeForce GTX 1060 6 GB / AMD Radeon RX 5600 XT 6 GB / Intel Arc A380 6 GB",
+        "models": [
+          "NVIDIA GeForce GTX 1060",
+          "GeForce GTX 1060",
+          "AMD Radeon RX 5600 XT",
+          "Radeon RX 5600 XT"
+        ],
+        "refs": [
+          {
+            "$oid": "6821c0613739a8dbd7eaa74f"
+          },
+          {
+            "$oid": "6821c0613739a8dbd7eaa74f"
+          },
+          {
+            "$oid": "6821c0663739a8dbd7eab450"
+          },
+          {
+            "$oid": "6821c0663739a8dbd7eab450"
+          }
+        ]
+      },
+      "DirectX": "Version 12",
+      "Espace disque": "55 GB d'espace disque disponible",
+      "Notes supplémentaires": "Disque SSD requis. Les spécifications minimales permettent un gameplay en 1080p à 30FPS avec des paramètres faibles."
+    }
+  },
+  "technologies": "Unreal Engine"
+},
+{
+  "_id": {
+    "$oid": "68220e441e51a5ac031eea35"
+  },
+  "name": "Banana",
+  "app_id": "2923300",
+  "developer": "Sky, AestheticSpartan, O'Brian",
+  "image_url": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2923300/6d550eab6dcbc01a824763edbafa9e439e625d5e/header.jpg?t=1745420381",
+  "price": 0,
+  "price_display": "Free-to-play",
+  "publisher": "Sky",
+  "release_date": "23 April 2024 – 07:00:35 UTC (13 months ago)",
+  "store_url": "https://store.steampowered.com/app/2923300/?curator_clanid=4777282&utm_source=SteamDB",
+  "supported_systems": "Windows Linux",
+  "system_requirements": {
+    "win": {
+      "os": {
+        "name": "Windows 7",
+        "refs": [
+          {
+            "$oid": "6821b438345b280235adc554"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "Intel i5 10500 / AMD Ryzen 7+",
+        "models": [
+          "Intel Core i5-1050",
+          "AMD Ryzen 7"
+        ],
+        "refs": [
+          {
+            "$oid": "6821c0673739a8dbd7eab5a1"
+          }
+        ]
+      },
+      "ram": {
+        "name": "4GB RAM",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e0"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "Any",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "Réseau": "connexion internet haut débit",
+      "Espace disque": "4 GB d'espace disque disponible"
+    },
+    "linux": {
+      "os": {
+        "name": "Linux",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e7"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "Intel i5 10500 / AMD Ryzen 7+",
+        "models": [
+          "Intel Core i5-1050",
+          "AMD Ryzen 7"
+        ],
+        "refs": [
+          {
+            "$oid": "6821c0673739a8dbd7eab5a1"
+          }
+        ]
+      },
+      "ram": {
+        "name": "4GB RAM",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e0"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "Any",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "Espace disque": "4 GB d'espace disque disponible"
+    }
+  },
+  "technologies": "Unity Engine"
+},
+{
+  "_id": {
+    "$oid": "68220e441e51a5ac031eea36"
+  },
+  "name": "Marvel Rivals",
+  "app_id": "2767030",
+  "developer": "NetEase Games",
+  "image_url": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2767030/9edf12b952e5eb33a878d661442a86049c96e2d4/header.jpg?t=1746613778",
+  "price": 0,
+  "price_display": "Free-to-play",
+  "publisher": "NetEase Games",
+  "release_date": "6 December 2024 – 00:00:00 UTC (5 months ago)",
+  "store_url": "https://store.steampowered.com/app/2767030/?curator_clanid=4777282&utm_source=SteamDB",
+  "supported_systems": "Windows",
+  "system_requirements": {
+    "win": {
+      "os": {
+        "name": "Windows 10",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e5"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "Intel Core i5-6600K or AMD Ryzen 5 1600X",
+        "models": [
+          "Intel Core i5-6600K",
+          "AMD Ryzen 5 1600X"
+        ],
+        "refs": [
+          {
+            "$oid": "6821c0673739a8dbd7eab7a8"
+          },
+          {
+            "$oid": "6821c0633739a8dbd7eaab5a"
+          }
+        ]
+      },
+      "ram": {
+        "name": "16GB RAM",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e2"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "NVIDIA GeForce GTX 1060 / AMD RX 580 / Intel Arc A380",
+        "models": [
+          "NVIDIA GeForce GTX 1060",
+          "GeForce GTX 1060"
+        ],
+        "refs": [
+          {
+            "$oid": "6821c0613739a8dbd7eaa74f"
+          },
+          {
+            "$oid": "6821c0613739a8dbd7eaa74f"
+          }
+        ]
+      },
+      "DirectX": "Version 12",
+      "Réseau": "connexion internet haut débit",
+      "Espace disque": "70 GB d'espace disque disponible",
+      "Notes supplémentaires": "We recommend you install the game on SSD drive for better experience."
+    }
+  },
+  "technologies": "Unreal Engine, EpicOnlineServices SDK"
+},
+{
+  "_id": {
+    "$oid": "68220e441e51a5ac031eea37"
+  },
+  "name": "Grand Theft Auto V Enhanced",
+  "app_id": "3240220",
+  "developer": "Rockstar North",
+  "image_url": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg?t=1741381848",
+  "price": 29.99,
+  "price_display": "29,99€",
+  "publisher": "Rockstar Games",
+  "release_date": "4 March 2025 – 12:00:00 UTC (2 months ago)",
+  "store_url": "https://store.steampowered.com/app/3240220/?curator_clanid=4777282&utm_source=SteamDB",
+  "supported_systems": "Windows",
+  "system_requirements": {
+    "win": {
+      "os": {
+        "name": "Windows 10",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e5"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "Intel® Core™ i7-4770 | AMD FX™-9590",
+        "models": [
+          "Intel Core i7-4770"
+        ],
+        "refs": [
+          {
+            "$oid": "6821c0683739a8dbd7eab919"
+          }
+        ]
+      },
+      "ram": {
+        "name": "8GB RAM",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e1"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "DirectX 10 Compatible",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "Espace disque": "105 GB d'espace disque disponible",
+      "Notes supplémentaires": "SSD Required | Over time downloadable content and programming changes will change the system requirements for this game. Please refer to your hardware manufacturer and for current compatibility information. Some system components such as mobile chipsets, integrated, and AGP graphics cards may be incompatible. Unlisted specifications may not be supported by publisher. Other requirements: Installation and online play requires log-in to Rockstar Games account (minimum age varies) network; internet connection required for activation, online play, and periodic entitlement verification; software installations required including Rockstar Games Launcher, DirectX, Chromium, and Microsoft Visual C++ 2008 sp1 Redistributable Package, and authentication and verification software that recognizes certain hardware attributes for entitlement, digital rights management, anti-cheat and moderation software, system, and other support purposes. *Compatible PC and/or device required. 3D Audio via Windows Spatial Sound compatible audio systems"
+    }
+  },
+  "technologies": "BattlEye AntiCheat, RAGE Engine, Rockstar Launcher"
+},
+{
+  "_id": {
+    "$oid": "68220e441e51a5ac031eea38"
+  },
+  "name": "Baldur's Gate 3",
+  "app_id": "1086940",
+  "developer": "Larian Studios",
+  "image_url": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1086940/6b6b46089067683cecf6acfc92b39fc4c72e3fac/header.jpg?t=1744744220",
+  "price": 59.99,
+  "price_display": "59,99€",
+  "publisher": "Larian Studios",
+  "release_date": "3 August 2023 – 15:00:00 UTC (1.8 years ago)",
+  "store_url": "https://store.steampowered.com/app/1086940/?curator_clanid=4777282&utm_source=SteamDB",
+  "supported_systems": "Windows macOS",
+  "system_requirements": {
+    "win": {
+      "os": {
+        "name": "Windows 10",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e5"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "Intel i7 8700K / AMD r5 3600",
+        "models": [
+          "Intel Core i7-8700K",
+          "any"
+        ],
+        "refs": [
+          {
+            "$oid": "6821c0683739a8dbd7eab989"
+          }
+        ]
+      },
+      "ram": {
+        "name": "16GB RAM",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e2"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "Nvidia 2060 Super / RX 5700 XT (8GB+ of VRAM)",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "DirectX": "Version 11",
+      "Espace disque": "150 GB d'espace disque disponible",
+      "Notes supplémentaires": "SSD required"
+    },
+    "mac": {
+      "os": {
+        "name": "MacOS",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e8"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "Apple M1 Pro or better",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "ram": {
+        "name": "16GB RAM",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e2"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "Apple M1 Pro or better",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "Espace disque": "150 GB d'espace disque disponible",
+      "Notes supplémentaires": "Recommended specs can run the game on high or ultra settings. SSD required."
+    }
+  },
+  "technologies": "Divinity_Engine Engine"
+},
+{
+  "_id": {
+    "$oid": "68220e441e51a5ac031eea39"
+  },
+  "name": "R.E.P.O.",
+  "app_id": "3241660",
+  "developer": "semiwork",
+  "image_url": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3241660/1ea445e044a2d5b09cfa8291350b63ebed6e5741/header.jpg?t=1743517226",
+  "price": 9.75,
+  "price_display": "9,75€",
+  "publisher": "semiwork",
+  "release_date": "26 February 2025 – 13:59:13 UTC (3 months ago)",
+  "store_url": "https://store.steampowered.com/app/3241660/?curator_clanid=4777282&utm_source=SteamDB",
+  "supported_systems": "Windows",
+  "system_requirements": {
+    "win": {
+      "os": {
+        "name": "Windows 10",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e5"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "Core i5 6600",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "ram": {
+        "name": "8GB RAM",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e1"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "GTX 970",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "DirectX": "Version 10",
+      "Réseau": "connexion internet haut débit",
+      "Espace disque": "1 GB d'espace disque disponible"
+    }
+  },
+  "technologies": "Unity Engine"
+},
+{
+  "_id": {
+    "$oid": "68220e441e51a5ac031eea3a"
+  },
+  "name": "EA SPORTS FC 25",
+  "app_id": "2669320",
+  "developer": "EA Canada, EA Romania",
+  "image_url": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2669320/ec3fb7747fd8080ef53d7686e0d98c5abe1f51f1/header.jpg?t=1743699535",
+  "price": 0.99,
+  "price_display": "0,99€",
+  "publisher": "Electronic Arts",
+  "release_date": "27 September 2024 – 03:52:00 UTC (8 months ago)",
+  "store_url": "https://store.steampowered.com/app/2669320/?curator_clanid=4777282&utm_source=SteamDB",
+  "supported_systems": "Windows",
+  "system_requirements": {
+    "win": {
+      "os": {
+        "name": "Windows 10",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e5"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "AMD Ryzen 5 1600 or Intel Core i5 6600k",
+        "models": [
+          "AMD Ryzen 5 1600",
+          "Intel Core i5-6600k"
+        ],
+        "refs": [
+          {
+            "$oid": "6821c0633739a8dbd7eaab5a"
+          },
+          {
+            "$oid": "6821c0673739a8dbd7eab7a8"
+          }
+        ]
+      },
+      "ram": {
+        "name": "8GB RAM",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e1"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "DirectX: 12 Compatible video card or equivalent (feature level 12_0)",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "DirectX": "Version 12",
+      "Réseau": "connexion internet haut débit",
+      "Espace disque": "100 GB d'espace disque disponible"
+    }
+  },
+  "technologies": "EA_AntiCheat AntiCheat, EA_App Launcher"
+},
+{
+  "_id": {
+    "$oid": "68220e441e51a5ac031eea3b"
+  },
+  "name": "Monster Hunter Wilds",
+  "app_id": "2246340",
+  "developer": "CAPCOM Co., Ltd.",
+  "image_url": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2246340/header.jpg?t=1745366582",
+  "price": 69.99,
+  "price_display": "69,99€",
+  "publisher": "CAPCOM Co., Ltd.",
+  "release_date": "28 February 2025 – 05:00:45 UTC (3 months ago)",
+  "store_url": "https://store.steampowered.com/app/2246340/?curator_clanid=4777282&utm_source=SteamDB",
+  "supported_systems": "Windows",
+  "system_requirements": {
+    "win": {
+      "os": {
+        "name": "Windows 10",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e5"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "Intel® Core™ i5-10400 or Intel® Core™ i3-12100 or AMD Ryzen™ 5 3600",
+        "models": [
+          "Intel Core i5-1040",
+          "Intel Core i3-1210",
+          "any"
+        ],
+        "refs": [
+          {
+            "$oid": "6821c0673739a8dbd7eab59d"
+          },
+          {
+            "$oid": "6821c0663739a8dbd7eab438"
+          }
+        ]
+      },
+      "ram": {
+        "name": "16GB RAM",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e2"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "NVIDIA® GeForce® GTX 1660(VRAM 6GB) or AMD Radeon™ RX 5500 XT(VRAM 8GB)",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "DirectX": "Version 12",
+      "Réseau": "connexion internet haut débit",
+      "Espace disque": "75 GB d'espace disque disponible"
+    }
+  },
+  "technologies": "RE_Engine Engine"
+},
+{
+  "_id": {
+    "$oid": "68220e441e51a5ac031eea3c"
+  },
+  "name": "Football Manager 2024",
+  "app_id": "2252570",
+  "developer": "Sports Interactive",
+  "image_url": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2252570/header.jpg?t=1702984758",
+  "price": 59.99,
+  "price_display": "59,99€",
+  "publisher": "SEGA",
+  "release_date": "6 November 2023 – 15:58:55 UTC (1.5 years ago)",
+  "store_url": "https://store.steampowered.com/app/2252570/?curator_clanid=4777282&utm_source=SteamDB",
+  "supported_systems": "Windows macOS",
+  "system_requirements": {
+    "win": {
+      "os": {
+        "name": "Windows 10",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e5"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "Intel Core 2 or AMD Athlon 64 X2",
+        "models": [
+          "any",
+          "AMD Athlon 64"
+        ],
+        "refs": [
+          {
+            "$oid": "6821c0603739a8dbd7eaa536"
+          }
+        ]
+      },
+      "ram": {
+        "name": "4GB RAM",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e0"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "Intel GMA X4500, NVIDIA GeForce 9600M GT, AMD/ATI Mobility Radeon HD 3650 - requires 256MB VRAM and DirectX® 11",
+        "models": [
+          "NVIDIA GeForce 9600M",
+          "GeForce 9600M",
+          "Radeon HD 3650",
+          "Mobility Radeon HD 3650"
+        ],
+        "refs": [
+          {
+            "$oid": "6821c0613739a8dbd7eaa612"
+          },
+          {
+            "$oid": "6821c0613739a8dbd7eaa612"
+          },
+          {
+            "$oid": "6821c0633739a8dbd7eaab7e"
+          },
+          {
+            "$oid": "6821c0633739a8dbd7eaab7e"
+          }
+        ]
+      },
+      "DirectX": "Version 11",
+      "Espace disque": "7 GB d'espace disque disponible",
+      "Notes supplémentaires": "Display: 1024x768. Performance scales with higher-end systems."
+    },
+    "mac": {
+      "os": {
+        "name": "11/12/13 with updates",
+        "refs": [
+          {
+            "$oid": "68220e44ae34e035bee8ec06"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "Apple M1 or Intel Core M",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "ram": {
+        "name": "4GB RAM",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e0"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "Apple M1, Intel HD Graphics 5000, NVIDIA GeForce GT 750M - requires 256MB VRAM and Metal",
+        "models": [
+          "Intel HD Graphics 5000"
+        ],
+        "refs": [
+          {
+            "$oid": "6821c0623739a8dbd7eaaa22"
+          }
+        ]
+      },
+      "Espace disque": "7 GB d'espace disque disponible"
+    }
+  },
+  "technologies": "EpicOnlineServices SDK"
+},
+{
+  "_id": {
+    "$oid": "68220e441e51a5ac031eea3d"
+  },
+  "name": "V Rising",
+  "app_id": "1604030",
+  "developer": "Stunlock Studios",
+  "image_url": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1604030/123091b358ac705c36642df5599d230825ad3cd6/header.jpg?t=1745842815",
+  "price": 0,
+  "price_display": "",
+  "publisher": "Stunlock Studios",
+  "release_date": "8 May 2024 – 11:00:26 UTC (12 months ago)",
+  "store_url": "https://store.steampowered.com/app/1604030/?curator_clanid=4777282&utm_source=SteamDB",
+  "supported_systems": "Windows",
+  "system_requirements": {
+    "win": {
+      "os": {
+        "name": "Windows 10",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e5"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "Intel Core i5-6600, 3.3 GHz or AMD Ryzen 5 1500X, 3.5 GHz",
+        "models": [
+          "Intel Core i5-6600",
+          "AMD Ryzen 5 1500X"
+        ],
+        "refs": [
+          {
+            "$oid": "6821c0673739a8dbd7eab7a8"
+          },
+          {
+            "$oid": "6821c0633739a8dbd7eaab59"
+          }
+        ]
+      },
+      "ram": {
+        "name": "12GB RAM",
+        "refs": [
+          {
+            "$oid": "68220e44ae34e035bee8ec07"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "NVIDIA GeForce GTX 750 Ti (Maxwell ou plus récent), 2 GB ou AMD Radeon R7 360, 2 GB",
+        "models": [
+          "NVIDIA GeForce GTX 750 Ti",
+          "GeForce GTX 750 Ti",
+          "AMD Radeon R7 360",
+          "Radeon R7 360"
+        ],
+        "refs": [
+          {
+            "$oid": "6821c0613739a8dbd7eaa7e4"
+          },
+          {
+            "$oid": "6821c0613739a8dbd7eaa7e4"
+          },
+          {
+            "$oid": "6821c0663739a8dbd7eab33c"
+          },
+          {
+            "$oid": "6821c0663739a8dbd7eab33c"
+          }
+        ]
+      },
+      "DirectX": "Version 11",
+      "Réseau": "connexion internet haut débit",
+      "Espace disque": "19 GB d'espace disque disponible",
+      "Notes supplémentaires": "La configuration minimale requise pourrait changer dans le futur."
+    }
+  },
+  "technologies": "Unity Engine, EpicOnlineServices SDK"
+},
+{
+  "_id": {
+    "$oid": "68220e441e51a5ac031eea3e"
+  },
+  "name": "Tom Clancy's Rainbow Six Siege",
+  "app_id": "359550",
+  "developer": "Ubisoft Montreal",
+  "image_url": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/359550/header.jpg?t=1742315874",
+  "price": 19.99,
+  "price_display": "19,99€",
+  "publisher": "Ubisoft",
+  "release_date": "1 December 2015 – 18:00:00 UTC (9.4 years ago)",
+  "store_url": "https://store.steampowered.com/app/359550/?curator_clanid=4777282&utm_source=SteamDB",
+  "supported_systems": "Windows",
+  "system_requirements": {
+    "win": {
+      "os": {
+        "name": "Windows 11",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e6"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "AMD Ryzen 3 1200 @ 3.1 GHz, Intel Core i5-4590 @ 3.3 GHz, or better",
+        "models": [
+          "Intel Core i5-4590"
+        ],
+        "refs": [
+          {
+            "$oid": "6821c0673739a8dbd7eab755"
+          }
+        ]
+      },
+      "ram": {
+        "name": "8GB RAM",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e1"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "DirectX® 9.0c compatible sound card with latest drivers",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "DirectX": "Version 12",
+      "Réseau": "connexion internet haut débit",
+      "Espace disque": "86 GB d'espace disque disponible"
+    }
+  },
+  "technologies": "BattlEye AntiCheat, UbisoftAnvil Engine, Ubisoft Launcher"
+},
+{
+  "_id": {
+    "$oid": "68220e441e51a5ac031eea3f"
+  },
+  "name": "Call of Duty®",
+  "app_id": "1938090",
+  "developer": "Treyarch, Raven Software, Beenox, High Moon Studios, Activision Shanghai, Sledgehammer Games, Infinity Ward, Demonware, Toys for Bob",
+  "image_url": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1938090/dd68f8902dcddadd3a47fecc4ccc586683592c6b/header.jpg?t=1744388487",
+  "price": 79.99,
+  "price_display": "79,99€",
+  "publisher": "Activision",
+  "release_date": "28 October 2022 – 04:00:00 UTC (2.6 years ago)",
+  "store_url": "https://store.steampowered.com/app/1938090/?curator_clanid=4777282&utm_source=SteamDB",
+  "supported_systems": "Windows",
+  "system_requirements": {
+    "win": {
+      "os": {
+        "name": "Windows 10",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e5"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "AMD Ryzen™ 5 1400 ou Intel® Core™ i5-6600",
+        "models": [
+          "any",
+          "Intel Core i5-6600"
+        ],
+        "refs": [
+          {
+            "$oid": "6821c0673739a8dbd7eab7a8"
+          }
+        ]
+      },
+      "ram": {
+        "name": "8GB RAM",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e1"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "AMD Radeon™ RX 470, NVIDIA® GeForce® GTX 960 ou Intel® Arc™ A580",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "DirectX": "Version 12",
+      "Réseau": "connexion internet haut débit",
+      "Notes supplémentaires": "SSD avec 128 Go d'espace disponible au lancement"
+    }
+  },
+  "technologies": "Ricochet AntiCheat, IW_Engine Engine"
+},
+{
+  "_id": {
+    "$oid": "68220e441e51a5ac031eea40"
+  },
+  "name": "Dead by Daylight",
+  "app_id": "381210",
+  "developer": "Behaviour Interactive Inc.",
+  "image_url": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/381210/header.jpg?t=1746584187",
+  "price": 19.99,
+  "price_display": "19,99€",
+  "publisher": "Behaviour Interactive Inc.",
+  "release_date": "14 June 2016 – 07:00:00 UTC (8.9 years ago)",
+  "store_url": "https://store.steampowered.com/app/381210/?curator_clanid=4777282&utm_source=SteamDB",
+  "supported_systems": "Windows",
+  "system_requirements": {
+    "win": {
+      "os": {
+        "name": "Windows 10",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e5"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "Intel Core i3-4170 ou AMD FX-8120",
+        "models": [
+          "Intel Core i3-4170",
+          "AMD FX-8120"
+        ],
+        "refs": [
+          {
+            "$oid": "6821c0663739a8dbd7eab4fe"
+          },
+          {
+            "$oid": "6821c0623739a8dbd7eaa885"
+          }
+        ]
+      },
+      "ram": {
+        "name": "8GB RAM",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e1"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "Compatible DX11",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "DirectX": "Version 11",
+      "Réseau": "connexion internet haut débit",
+      "Espace disque": "50 GB d'espace disque disponible"
+    }
+  },
+  "technologies": "EasyAntiCheat AntiCheat, Unreal Engine, EpicOnlineServices SDK"
+},
+{
+  "_id": {
+    "$oid": "68220e441e51a5ac031eea41"
+  },
+  "name": "NBA 2K25",
+  "app_id": "2878980",
+  "developer": "Visual Concepts",
+  "image_url": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2878980/header.jpg?t=1743778894",
+  "price": 79.99,
+  "price_display": "79,99€",
+  "publisher": "2K",
+  "release_date": "4 September 2024 – 04:02:03 UTC (8 months ago)",
+  "store_url": "https://store.steampowered.com/app/2878980/?curator_clanid=4777282&utm_source=SteamDB",
+  "supported_systems": "Windows",
+  "system_requirements": {
+    "win": {
+      "os": {
+        "name": "Windows 10",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e5"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "Intel® Core™ i3-9100 or AMD Ryzen™ 3 1200",
+        "models": [
+          "Intel Core i3-9100",
+          "any"
+        ],
+        "refs": [
+          {
+            "$oid": "6821c0673739a8dbd7eab579"
+          }
+        ]
+      },
+      "ram": {
+        "name": "8GB RAM",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e1"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "NVIDIA® GeForce® GTX 960 4 GB or AMD Radeon™ RX 570 4 GB or Intel® Arc™ A580",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "DirectX": "Version 12",
+      "Réseau": "connexion internet haut débit",
+      "Espace disque": "150 GB d'espace disque disponible"
+    }
+  },
+  "technologies": "EasyAntiCheat AntiCheat, EpicOnlineServices SDK"
+},
+{
+  "_id": {
+    "$oid": "68220e441e51a5ac031eea42"
+  },
+  "name": "Once Human",
+  "app_id": "2139460",
+  "developer": "Starry Studio",
+  "image_url": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2139460/083b387763c8b88f6edd0389a8ab065f62856d8a/header.jpg?t=1745374973",
+  "price": 0,
+  "price_display": "Free-to-play",
+  "publisher": "Starry Studio",
+  "release_date": "9 July 2024 – 20:00:35 UTC (10 months ago)",
+  "store_url": "https://store.steampowered.com/app/2139460/?curator_clanid=4777282&utm_source=SteamDB",
+  "supported_systems": "Windows",
+  "system_requirements": {
+    "win": {
+      "os": {
+        "name": "Windows 10",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e5"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "Intel Core i5-4460",
+        "models": [
+          "Intel Core i5-4460"
+        ],
+        "refs": [
+          {
+            "$oid": "6821c0673739a8dbd7eab72c"
+          }
+        ]
+      },
+      "ram": {
+        "name": "8GB RAM",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e1"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "Nvidia GTX 750ti 4G / AMD Radeon RX550",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "DirectX": "Version 11",
+      "Réseau": "connexion internet haut débit",
+      "Espace disque": "83 GB d'espace disque disponible",
+      "Notes supplémentaires": "SSD is highly recommended"
+    }
+  },
+  "technologies": "NeoX Engine"
+},
+{
+  "_id": {
+    "$oid": "68220e441e51a5ac031eea43"
+  },
+  "name": "Hearts of Iron IV",
+  "app_id": "394360",
+  "developer": "Paradox Development Studio",
+  "image_url": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/394360/67bbd0057627fc2244793bcdd09260c2539499cf/header.jpg?t=1746794417",
+  "price": 0,
+  "price_display": "",
+  "publisher": "Paradox Interactive",
+  "release_date": "6 June 2016 – 15:57:00 UTC (8.9 years ago)",
+  "store_url": "https://store.steampowered.com/app/394360/?curator_clanid=4777282&utm_source=SteamDB",
+  "supported_systems": "Windows macOS Linux",
+  "system_requirements": {
+    "win": {
+      "os": {
+        "name": "Windows 10",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e5"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "Intel® Core™ i5 2500K | AMD® Ryzen 3 2200G",
+        "models": [
+          "Intel Core i5-2500K"
+        ],
+        "refs": [
+          {
+            "$oid": "6821c0673739a8dbd7eab691"
+          }
+        ]
+      },
+      "ram": {
+        "name": "6GB RAM",
+        "refs": [
+          {
+            "$oid": "6821bc547c9fa7aadc193975"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "Direct X- compatible soundcard.",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "DirectX": "Version 9.0c",
+      "Espace disque": "2 GB d'espace disque disponible",
+      "Notes supplémentaires": "Mouse and keyboard are required. / Latest available WHQL drivers from both manufacturers. / Internet Connection or LAN for multiplayer, Up to 32 other players in multiplayer mode."
+    },
+    "mac": {
+      "os": {
+        "name": "MacOS",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e8"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "Intel Core i5 @ 2.90 GHz or better",
+        "models": [
+          "2.90 GHz"
+        ],
+        "refs": []
+      },
+      "ram": {
+        "name": "8GB RAM",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e1"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "ATI Radeon R9 390M or NVIDIA GeForce 750M with 1GB VRAM",
+        "models": [
+          "Radeon R9 390M",
+          "NVIDIA GeForce 750M",
+          "GeForce 750M"
+        ],
+        "refs": [
+          {
+            "$oid": "6821c0603739a8dbd7eaa3ac"
+          },
+          {
+            "$oid": "6821c0603739a8dbd7eaa556"
+          },
+          {
+            "$oid": "6821c0603739a8dbd7eaa556"
+          }
+        ]
+      },
+      "Espace disque": "2 GB d'espace disque disponible",
+      "Notes supplémentaires": "Mouse and keyboard are required. / Latest available proprietary drivers from both manufacturers/ Internet Connection or LAN for multiplayer, Up to 32 other players in multiplayer mode."
+    },
+    "linux": {
+      "os": {
+        "name": "Linux",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e7"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "Intel Core i5 750 @ 2.66 GHz / AMD Phenom II X4 955 @ 3.20 GHz",
+        "models": [
+          "Intel Core i5 750",
+          "AMD Phenom II X4 955"
+        ],
+        "refs": [
+          {
+            "$oid": "6821c0673739a8dbd7eab586"
+          },
+          {
+            "$oid": "6821c0623739a8dbd7eaaa21"
+          }
+        ]
+      },
+      "ram": {
+        "name": "4GB RAM",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e0"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "ATI Radeon HD 6950 or NVIDIA GeForce GTX570 with 2GB VRAM / Latest available proprietary drivers from both manufacturers",
+        "models": [
+          "Radeon HD 6950"
+        ],
+        "refs": [
+          {
+            "$oid": "6821c0643739a8dbd7eaaf4b"
+          }
+        ]
+      },
+      "Espace disque": "2 GB d'espace disque disponible",
+      "Notes supplémentaires": "Controller support: 3-button mouse, keyboard, and speakers are required. / Internet Connection or LAN for multiplayer, Up to 32 other players in multiplayer mode."
+    }
+  },
+  "technologies": "Paradox_Launcher Launcher"
+},
+{
+  "_id": {
+    "$oid": "68220e441e51a5ac031eea44"
+  },
+  "name": "Don't Starve Together",
+  "app_id": "322330",
+  "developer": "Klei Entertainment",
+  "image_url": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/322330/f0620dadd4666d8fe9e588cfbaba5fbaea4722b5/header.jpg?t=1746133902",
+  "price": 14.99,
+  "price_display": "14,99€",
+  "publisher": "Klei Entertainment",
+  "release_date": "21 April 2016 – 16:58:00 UTC (9.1 years ago)",
+  "store_url": "https://store.steampowered.com/app/322330/?curator_clanid=4777282&utm_source=SteamDB",
+  "supported_systems": "Windows macOS Linux",
+  "system_requirements": {
+    "win": {
+      "os": {
+        "name": "Windows 8",
+        "refs": [
+          {
+            "$oid": "68220e44ae34e035bee8ec08"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "1.7+ GHz or better",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "ram": {
+        "name": "1GB RAM",
+        "refs": [
+          {
+            "$oid": "6821bc547c9fa7aadc193977"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "100% DirectX9.0c compatible sound card and drivers",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "DirectX": "Version 9.0c",
+      "Réseau": "connexion internet haut débit",
+      "Espace disque": "3 GB d'espace disque disponible"
+    },
+    "mac": {
+      "os": {
+        "name": "MacOS",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e8"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "2.0 GHz Intel",
+        "models": [
+          "2.0 GHz"
+        ],
+        "refs": []
+      },
+      "ram": {
+        "name": "4GB RAM",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e0"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "NVidia or ATI graphics card",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "Réseau": "connexion internet haut débit",
+      "Espace disque": "3 GB d'espace disque disponible",
+      "Notes supplémentaires": "Not recommended for Intel GMA Graphics or Mac Minis or early-generation MacBooks"
+    },
+    "linux": {
+      "cpu": {
+        "name": "1.7+ GHz or better",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "ram": {
+        "name": "1GB RAM",
+        "refs": [
+          {
+            "$oid": "6821bc547c9fa7aadc193977"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "Radeon HD5450 or better; 256 MB or higher",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "Réseau": "connexion internet haut débit",
+      "Espace disque": "3 GB d'espace disque disponible"
+    }
+  },
+  "technologies": ""
+},
+{
+  "_id": {
+    "$oid": "68220e441e51a5ac031eea45"
+  },
+  "name": "Crosshair X",
+  "app_id": "1366800",
+  "developer": "CenterPoint Gaming",
+  "image_url": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1366800/22e1a703a4d8f45c900741b53a4f933862798a10/header.jpg?t=1744821469",
+  "price": 7.99,
+  "price_display": "7,99€",
+  "publisher": "CenterPoint Gaming",
+  "release_date": "17 August 2020 – 13:26:02 UTC (4.8 years ago)",
+  "store_url": "https://store.steampowered.com/app/1366800/?curator_clanid=4777282&utm_source=SteamDB",
+  "supported_systems": "Windows",
+  "system_requirements": {
+    "win": {
+      "os": {
+        "name": "Windows 10",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e5"
+          }
+        ]
+      }
+    }
+  },
+  "technologies": null
+},
+{
+  "_id": {
+    "$oid": "68220e441e51a5ac031eea46"
+  },
+  "name": "VRChat",
+  "app_id": "438100",
+  "developer": "VRChat Inc.",
+  "image_url": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/438100/header.jpg?t=1733413042",
+  "price": 0,
+  "price_display": "Free-to-play",
+  "publisher": "VRChat Inc.",
+  "release_date": "1 February 2017 – 21:59:00 UTC (8.3 years ago)",
+  "store_url": "https://store.steampowered.com/app/438100/?curator_clanid=4777282&utm_source=SteamDB",
+  "supported_systems": "Windows",
+  "system_requirements": {
+    "win": {
+      "os": {
+        "name": "Windows 10",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e5"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "Intel® i5-4590 / AMD FX 8350 equivalent or greater",
+        "models": [
+          "Intel Core i5-4590",
+          "AMD FX 8350"
+        ],
+        "refs": [
+          {
+            "$oid": "6821c0673739a8dbd7eab755"
+          },
+          {
+            "$oid": "68220e44ae34e035bee8ec09"
+          }
+        ]
+      },
+      "ram": {
+        "name": "4GB RAM",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e0"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "NVIDIA GeForce® GTX 970 / AMD Radeon™ R9 290 equivalent or greater",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "DirectX": "Version 11",
+      "Réseau": "connexion internet haut débit",
+      "Espace disque": "1 GB d'espace disque disponible",
+      "Prise en charge VR": "SteamVR"
+    }
+  },
+  "technologies": "EasyAntiCheat AntiCheat, Unity Engine, EpicOnlineServices SDK"
+},
+{
+  "_id": {
+    "$oid": "68220e441e51a5ac031eea47"
+  },
+  "name": "Team Fortress 2",
+  "app_id": "440",
+  "developer": "Valve",
+  "image_url": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/440/header.jpg?t=1745368581",
+  "price": 0,
+  "price_display": "Free-to-play",
+  "publisher": "Valve",
+  "release_date": "10 October 2007 – 07:00:00 UTC (17.6 years ago)",
+  "store_url": "https://store.steampowered.com/app/440/?curator_clanid=4777282&utm_source=SteamDB",
+  "supported_systems": "Windows macOS Linux",
+  "system_requirements": {
+    "win": {
+      "os": {
+        "name": "Windows 10",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e5"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "Pentium 4 processor (3.0GHz, or better)",
+        "models": [
+          "3.0 GHz"
+        ],
+        "refs": []
+      },
+      "ram": {
+        "name": "1GB RAM",
+        "refs": [
+          {
+            "$oid": "6821bc547c9fa7aadc193977"
+          }
+        ]
+      },
+      "DirectX": "Version 9.0c",
+      "Réseau": "connexion internet haut débit",
+      "Espace disque": "15 GB d'espace disque disponible"
+    },
+    "linux": {
+      "os": {
+        "name": "Linux",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e7"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "Dual core from Intel or AMD at 2.8 GHz",
+        "models": [
+          "any",
+          "2.8 GHz"
+        ],
+        "refs": []
+      },
+      "ram": {
+        "name": "1GB RAM",
+        "refs": [
+          {
+            "$oid": "6821bc547c9fa7aadc193977"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "OpenAL Compatible Sound Card",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "Réseau": "connexion internet haut débit",
+      "Espace disque": "15 GB d'espace disque disponible"
+    }
+  },
+  "technologies": "Source Engine"
+},
+{
+  "_id": {
+    "$oid": "68220e441e51a5ac031eea48"
+  },
+  "name": "Path of Exile 2",
+  "app_id": "2694490",
+  "developer": "Grinding Gear Games",
+  "image_url": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2694490/header.jpg?t=1745801545",
+  "price": 27.75,
+  "price_display": "27,75€",
+  "publisher": "Grinding Gear Games",
+  "release_date": "6 December 2024 – 18:34:00 UTC (5 months ago)",
+  "store_url": "https://store.steampowered.com/app/2694490/?curator_clanid=4777282&utm_source=SteamDB",
+  "supported_systems": "Windows",
+  "system_requirements": {
+    "win": {
+      "os": {
+        "name": "Windows 10",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e5"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "4 core 2.8GHz x64-compatible",
+        "models": [
+          "2.8 GHz"
+        ],
+        "refs": []
+      },
+      "ram": {
+        "name": "8GB RAM",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e1"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "NVIDIA® GeForce® GTX 960 ou ATI Radeon™ RX 470",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "DirectX": "Version 12",
+      "Réseau": "connexion internet haut débit",
+      "Espace disque": "100 GB d'espace disque disponible",
+      "Notes supplémentaires": "A GPU with at least 3GB of VRAM is required"
+    }
+  },
+  "technologies": ""
+},
+{
+  "_id": {
+    "$oid": "68220e441e51a5ac031eea49"
+  },
+  "name": "ELDEN RING",
+  "app_id": "1245620",
+  "developer": "FromSoftware, Inc.",
+  "image_url": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1245620/header.jpg?t=1744748041",
+  "price": 59.99,
+  "price_display": "59,99€",
+  "publisher": "FromSoftware, Inc., Bandai Namco Entertainment",
+  "release_date": "24 February 2022 – 23:07:00 UTC (3.3 years ago)",
+  "store_url": "https://store.steampowered.com/app/1245620/?curator_clanid=4777282&utm_source=SteamDB",
+  "supported_systems": "Windows",
+  "system_requirements": {
+    "win": {
+      "os": {
+        "name": "Windows 10",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e5"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "INTEL CORE I5-8400 or AMD RYZEN 3 3300X",
+        "models": [
+          "Intel Core i5-8400",
+          "AMD RYZEN 3 3300X"
+        ],
+        "refs": [
+          {
+            "$oid": "6821c0683739a8dbd7eab81b"
+          },
+          {
+            "$oid": "6821c0633739a8dbd7eaaaee"
+          }
+        ]
+      },
+      "ram": {
+        "name": "12GB RAM",
+        "refs": [
+          {
+            "$oid": "68220e44ae34e035bee8ec07"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "Windows Compatible Audio Device",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "DirectX": "Version 12",
+      "Espace disque": "60 GB d'espace disque disponible"
+    }
+  },
+  "technologies": "EasyAntiCheat AntiCheat, EpicOnlineServices SDK"
+},
+{
+  "_id": {
+    "$oid": "68220e441e51a5ac031eea4a"
+  },
+  "name": "Red Dead Redemption 2",
+  "app_id": "1174180",
+  "developer": "Rockstar Games",
+  "image_url": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg?t=1720558643",
+  "price": 59.99,
+  "price_display": "59,99€",
+  "publisher": "Rockstar Games",
+  "release_date": "5 December 2019 – 17:00:00 UTC (5.4 years ago)",
+  "store_url": "https://store.steampowered.com/app/1174180/?curator_clanid=4777282&utm_source=SteamDB",
+  "supported_systems": "Windows",
+  "system_requirements": {
+    "win": {
+      "os": {
+        "name": "Windows 10",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e5"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "Intel® Core™ i5-2500K / AMD FX-6300",
+        "models": [
+          "Intel Core i5-2500K",
+          "AMD FX-6300"
+        ],
+        "refs": [
+          {
+            "$oid": "6821c0673739a8dbd7eab691"
+          },
+          {
+            "$oid": "6821c0623739a8dbd7eaa87c"
+          }
+        ]
+      },
+      "ram": {
+        "name": "8GB RAM",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e1"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "Direct X Compatible",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "Réseau": "connexion internet haut débit",
+      "Espace disque": "150 GB d'espace disque disponible"
+    }
+  },
+  "technologies": "RAGE Engine, Rockstar Launcher"
+},
+{
+  "_id": {
+    "$oid": "68220e441e51a5ac031eea4b"
+  },
+  "name": "Schedule I",
+  "app_id": "3164500",
+  "developer": "TVGS",
+  "image_url": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3164500/header.jpg?t=1745291685",
+  "price": 19.5,
+  "price_display": "19,50€",
+  "publisher": "TVGS",
+  "release_date": "24 March 2025 – 22:00:07 UTC (2 months ago)",
+  "store_url": "https://store.steampowered.com/app/3164500/?curator_clanid=4777282&utm_source=SteamDB",
+  "supported_systems": "Windows",
+  "system_requirements": {
+    "win": {
+      "os": {
+        "name": "Windows 10",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e5"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "3GHz 4-Core or similar",
+        "models": [
+          "3 GHz"
+        ],
+        "refs": []
+      },
+      "ram": {
+        "name": "8GB RAM",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e1"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "GeForce GTX 1060 or Radeon RX 580",
+        "models": [
+          "GeForce GTX 1060",
+          "Radeon RX 580"
+        ],
+        "refs": [
+          {
+            "$oid": "6821c0613739a8dbd7eaa74f"
+          },
+          {
+            "$oid": "6821c0663739a8dbd7eab457"
+          }
+        ]
+      },
+      "Espace disque": "8 GB d'espace disque disponible"
+    }
+  },
+  "technologies": "Unity Engine"
+},
+{
+  "_id": {
+    "$oid": "68220e441e51a5ac031eea4c"
+  },
+  "name": "DayZ",
+  "app_id": "221100",
+  "developer": "Bohemia Interactive",
+  "image_url": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/221100/header.jpg?t=1741874734",
+  "price": 57.99,
+  "price_display": "57,99€",
+  "publisher": "Bohemia Interactive",
+  "release_date": "13 December 2018 – 18:00:00 UTC (6.4 years ago)",
+  "store_url": "https://store.steampowered.com/app/221100/?curator_clanid=4777282&utm_source=SteamDB",
+  "supported_systems": "Windows",
+  "system_requirements": {
+    "win": {
+      "os": {
+        "name": "Windows 10",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e5"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "Intel Core i5-4430",
+        "models": [
+          "Intel Core i5-4430"
+        ],
+        "refs": [
+          {
+            "$oid": "6821c0673739a8dbd7eab728"
+          }
+        ]
+      },
+      "ram": {
+        "name": "8GB RAM",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e1"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "DirectX®-compatible",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "DirectX": "Version 11",
+      "Espace disque": "25 GB d'espace disque disponible",
+      "Notes supplémentaires": "Internet connection"
+    }
+  },
+  "technologies": "BattlEye AntiCheat, RealVirtuality Engine"
+},
+{
+  "_id": {
+    "$oid": "68220e441e51a5ac031eea4d"
+  },
+  "name": "Sid Meier's Civilization VI",
+  "app_id": "289070",
+  "developer": "Firaxis Games, Aspyr (Mac), Aspyr (Linux)",
+  "image_url": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/289070/header.jpg?t=1740607040",
+  "price": 0,
+  "price_display": "",
+  "publisher": "2K, Aspyr (Mac), Aspyr (Linux)",
+  "release_date": "21 October 2016 – 04:00:00 UTC (8.6 years ago)",
+  "store_url": "https://store.steampowered.com/app/289070/?curator_clanid=4777282&utm_source=SteamDB",
+  "supported_systems": "Windows macOS Linux",
+  "system_requirements": {
+    "win": {
+      "os": {
+        "name": "Windows 10",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e5"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "Fourth Generation Intel Core i5 2.5 Ghz or AMD FX8350 4.0 Ghz or greater",
+        "models": [
+          "Intel Core i5 2",
+          "4.0 GHz"
+        ],
+        "refs": [
+          {
+            "$oid": "68220e44ae34e035bee8ec0a"
+          }
+        ]
+      },
+      "ram": {
+        "name": "8GB RAM",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e1"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "DirectX Compatible Sound Device",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "DirectX": "Version 11",
+      "Espace disque": "23 GB d'espace disque disponible",
+      "Notes supplémentaires": "Initial installation requires one-time Internet connection for Steam authentication; software installations required (included with the game) include Steam Client, Microsoft Visual C++ 2012 and 2015 Runtime Libraries, and Microsoft DirectX. Internet connection and acceptance of Steam™ Subscriber Agreement required for activation. See for details."
+    },
+    "mac": {
+      "os": {
+        "name": "10.14.6 (mojave)",
+        "refs": [
+          {
+            "$oid": "68220e44ae34e035bee8ec0b"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "Intel Core i5 2.7Ghz",
+        "models": [
+          "Intel Core i5 2"
+        ],
+        "refs": [
+          {
+            "$oid": "68220e44ae34e035bee8ec0a"
+          }
+        ]
+      },
+      "ram": {
+        "name": "6GB RAM",
+        "refs": [
+          {
+            "$oid": "6821bc547c9fa7aadc193975"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "1 GB GPU Minimum - GeForce 775M | Radeon HD 6970 | Intel Iris Pro",
+        "models": [
+          "GeForce 775M",
+          "Radeon HD 6970"
+        ],
+        "refs": [
+          {
+            "$oid": "6821c0613739a8dbd7eaa7ed"
+          },
+          {
+            "$oid": "6821c0643739a8dbd7eaaf4c"
+          }
+        ]
+      },
+      "Espace disque": "17 GB d'espace disque disponible",
+      "Notes supplémentaires": "NOTICE: It is possible for Mac and PC to become out of sync during updates or patches. Within this time period, Mac users will only be able to play other Mac users."
+    },
+    "linux": {
+      "os": {
+        "name": "Linux",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e7"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "Intel Core i3 530 or AMD A8-3870",
+        "models": [
+          "Intel Core i3-530",
+          "AMD A8-3870"
+        ],
+        "refs": [
+          {
+            "$oid": "6821c0663739a8dbd7eab510"
+          },
+          {
+            "$oid": "6821c0603739a8dbd7eaa4d6"
+          }
+        ]
+      },
+      "ram": {
+        "name": "6GB RAM",
+        "refs": [
+          {
+            "$oid": "6821bc547c9fa7aadc193975"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "1 GB VRAM Minimum - NVIDIA GeForce 650",
+        "models": [
+          "NVIDIA GeForce 650",
+          "GeForce 650"
+        ],
+        "refs": [
+          {
+            "$oid": "6821c0603739a8dbd7eaa51d"
+          },
+          {
+            "$oid": "6821c0603739a8dbd7eaa51d"
+          }
+        ]
+      },
+      "Espace disque": "17 GB d'espace disque disponible",
+      "Notes supplémentaires": "IMPORTANT NOTICE: Some Intel i3 Processors may require an additional 2 GB Swap Partition. IMPORTANT NOTICE: ATI and INTEL chipsets are NOT supported to run Civilization VI LINUX. Don't meet the above requirements? Running on a unique distro? That doesn't mean your configuration wont run Civ VI! Visit the Civilization VI community page to share your experience with other Linux players and learn about how to send bugs to Aspyr. Your feedback will help us improve Civ VI Linux and future AAA Linux releases!"
+    }
+  },
+  "technologies": "EpicOnlineServices SDK"
+},
+{
+  "_id": {
+    "$oid": "68220e441e51a5ac031eea4e"
+  },
+  "name": "The Elder Scrolls IV: Oblivion Remastered",
+  "app_id": "2623190",
+  "developer": "Bethesda Game Studios, Virtuos",
+  "image_url": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2623190/a7cee9165bb1bfc092c390c5cff215ce0e381dfc/header.jpg?t=1745345472",
+  "price": 54.99,
+  "price_display": "54,99€",
+  "publisher": "Bethesda Softworks",
+  "release_date": "22 April 2025 – 15:01:01 UTC (20 days ago)",
+  "store_url": "https://store.steampowered.com/app/2623190/?curator_clanid=4777282&utm_source=SteamDB",
+  "supported_systems": "Windows",
+  "system_requirements": {
+    "win": {
+      "os": {
+        "name": "Windows 10",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e5"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "AMD Ryzen 5 2600X, Intel Core i7-6800K",
+        "models": [
+          "Intel Core i7-6800K"
+        ],
+        "refs": [
+          {
+            "$oid": "6821c0683739a8dbd7eab95a"
+          }
+        ]
+      },
+      "ram": {
+        "name": "16GB RAM",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e2"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "AMD Radeon RX 5700, NVIDIA GeForce 1070 Ti",
+        "models": [
+          "NVIDIA GeForce 1070",
+          "GeForce 1070",
+          "AMD Radeon RX 5700",
+          "Radeon RX 5700"
+        ],
+        "refs": [
+          {
+            "$oid": "6821c0613739a8dbd7eaa754"
+          },
+          {
+            "$oid": "6821c0613739a8dbd7eaa754"
+          },
+          {
+            "$oid": "6821c0663739a8dbd7eab453"
+          },
+          {
+            "$oid": "6821c0663739a8dbd7eab453"
+          }
+        ]
+      },
+      "DirectX": "Version 12",
+      "Espace disque": "125 GB d'espace disque disponible",
+      "Notes supplémentaires": "SSD Required"
+    }
+  },
+  "technologies": "Unreal Engine, EpicOnlineServices SDK"
+},
+{
+  "_id": {
+    "$oid": "68220e441e51a5ac031eea4f"
+  },
+  "name": "tModLoader",
+  "app_id": "1281930",
+  "developer": "TML Team",
+  "image_url": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1281930/header.jpg?t=1718143594",
+  "price": 0,
+  "price_display": "Gratuit",
+  "publisher": "Re-Logic, TML Team",
+  "release_date": "16 May 2020 – 16:59:23 UTC (5 years ago)",
+  "store_url": "https://store.steampowered.com/app/1281930/?curator_clanid=4777282&utm_source=SteamDB",
+  "supported_systems": "Windows macOS Linux",
+  "system_requirements": {
+    "win": {
+      "os": {
+        "name": "Windows 10",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e5"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "Dual Core 3.0 Ghz",
+        "models": [
+          "3.0 GHz"
+        ],
+        "refs": []
+      },
+      "ram": {
+        "name": "16GB RAM",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e2"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "FNA Requirements:",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "DirectX": "Version 11",
+      "Espace disque": "20000 MB d'espace disque disponible",
+      "Notes supplémentaires": "tModLoader relies on NET 8 runtime. NET 8 requirements: . Additional Requirements may vary with installed Workshop Items"
+    },
+    "mac": {
+      "os": {
+        "name": "MacOS",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e8"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "Dual Core 3.0 Ghz",
+        "models": [
+          "3.0 GHz"
+        ],
+        "refs": []
+      },
+      "ram": {
+        "name": "12GB RAM",
+        "refs": [
+          {
+            "$oid": "68220e44ae34e035bee8ec07"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "FNA Requirements:",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "Espace disque": "20000 MB d'espace disque disponible",
+      "Notes supplémentaires": "tModLoader relies on NET 8 runtime. NET 8 requirements: . Additional Requirements may vary with installed Workshop Items"
+    },
+    "linux": {
+      "os": {
+        "name": "Linux",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e7"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "Dual Core 3.0 Ghz",
+        "models": [
+          "3.0 GHz"
+        ],
+        "refs": []
+      },
+      "ram": {
+        "name": "12GB RAM",
+        "refs": [
+          {
+            "$oid": "68220e44ae34e035bee8ec07"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "FNA Requirements:",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "Espace disque": "20000 MB d'espace disque disponible",
+      "Notes supplémentaires": "tModLoader relies on NET 8 runtime. NET 8 requirements: . Additional Requirements may vary with installed Workshop Items"
+    }
+  },
+  "technologies": "FNA Engine, XNA Engine"
+},
+{
+  "_id": {
+    "$oid": "68220e441e51a5ac031eea50"
+  },
+  "name": "Street Fighter™ 6",
+  "app_id": "1364780",
+  "developer": "CAPCOM Co., Ltd.",
+  "image_url": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1364780/header.jpg?t=1745814264",
+  "price": 39.99,
+  "price_display": "39,99€",
+  "publisher": "CAPCOM Co., Ltd.",
+  "release_date": "2 June 2023 – 07:00:00 UTC (1.9 years ago)",
+  "store_url": "https://store.steampowered.com/app/1364780/?curator_clanid=4777282&utm_source=SteamDB",
+  "supported_systems": "Windows",
+  "system_requirements": {
+    "win": {
+      "os": {
+        "name": "Windows 10",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e5"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "Intel Core i5-7500 / AMD Ryzen 3 1200",
+        "models": [
+          "Intel Core i5-750",
+          "AMD Ryzen 3 1200"
+        ],
+        "refs": [
+          {
+            "$oid": "6821c0673739a8dbd7eab7da"
+          },
+          {
+            "$oid": "6821c0633739a8dbd7eaaae0"
+          }
+        ]
+      },
+      "ram": {
+        "name": "8GB RAM",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e1"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "GTX1060 (VRAM 6GB) / Radeon RX 580 (VRAM 4GB)",
+        "models": [
+          "Radeon RX 580"
+        ],
+        "refs": [
+          {
+            "$oid": "6821c0663739a8dbd7eab457"
+          }
+        ]
+      },
+      "DirectX": "Version 12",
+      "Espace disque": "60 GB d'espace disque disponible",
+      "Notes supplémentaires": "- The framerate may drop during graphic-intensive scenes. - Additional storage is required for each subsequent update."
+    }
+  },
+  "technologies": "RE_Engine Engine"
+},
+{
+  "_id": {
+    "$oid": "68220e441e51a5ac031eea51"
+  },
+  "name": "Stellaris",
+  "app_id": "281990",
+  "developer": "Paradox Development Studio",
+  "image_url": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/281990/header.jpg?t=1746546960",
+  "price": 0,
+  "price_display": "",
+  "publisher": "Paradox Interactive",
+  "release_date": "9 May 2016 – 15:57:00 UTC (9 years ago)",
+  "store_url": "https://store.steampowered.com/app/281990/?curator_clanid=4777282&utm_source=SteamDB",
+  "supported_systems": "Windows macOS Linux",
+  "system_requirements": {
+    "win": {
+      "os": {
+        "name": "Windows 10",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e5"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "Intel® iCore™ i5-3570K or AMD® Ryzen™ 5 2400G",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "ram": {
+        "name": "4GB RAM",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e0"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "DirectX 9.0c-compatible sound card",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "DirectX": "Version 12",
+      "Réseau": "connexion internet haut débit",
+      "Espace disque": "10 GB d'espace disque disponible",
+      "Notes supplémentaires": "Controller support: 3-button mouse, keyboard and speakers. Special multiplayer requirements: Internet Connection"
+    },
+    "mac": {
+      "os": {
+        "name": "13 (ventura)",
+        "refs": [
+          {
+            "$oid": "68220e44ae34e035bee8ec0c"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "Intel® iCore™ i5-4670",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "ram": {
+        "name": "8GB RAM",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e1"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "Nvidia® GeForce™ GTX 780M with 4GB Vram or AMD® Radeon™ R7 370 (2 GB VRAM)",
+        "models": [
+          "4 Go VRAM"
+        ],
+        "refs": []
+      },
+      "Réseau": "connexion internet haut débit",
+      "Espace disque": "10 GB d'espace disque disponible",
+      "Notes supplémentaires": "Controller support: 3-button mouse, keyboard and speakers. Special multiplayer requirements: Internet Connection"
+    },
+    "linux": {
+      "os": {
+        "name": "Linux",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e7"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "Intel® iCore™ i5-3570K or AMD® Ryzen™ 5 2400G",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "ram": {
+        "name": "4GB RAM",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e0"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "Direct X 9.0c- compatible sound card",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "Réseau": "connexion internet haut débit",
+      "Espace disque": "12 GB d'espace disque disponible",
+      "Notes supplémentaires": "Controller support: 3-button mouse, keyboard and speakers. Special multiplayer requirements: Internet Connection"
+    }
+  },
+  "technologies": "Clausewitz Engine, Paradox_Launcher Launcher"
+},
+{
+  "_id": {
+    "$oid": "68220e441e51a5ac031eea52"
+  },
+  "name": "Geometry Dash",
+  "app_id": "322170",
+  "developer": "RobTop Games",
+  "image_url": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/322170/header.jpg?t=1703006148",
+  "price": 4.99,
+  "price_display": "4,99€",
+  "publisher": "RobTop Games",
+  "release_date": "22 December 2014 – 18:31:00 UTC (10.4 years ago)",
+  "store_url": "https://store.steampowered.com/app/322170/?curator_clanid=4777282&utm_source=SteamDB",
+  "supported_systems": "Windows macOS",
+  "system_requirements": {
+    "win": {
+      "os": {
+        "name": "Windows 10",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e5"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "2.0+ GHz",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "ram": {
+        "name": "512 MB de mémoire",
+        "refs": [
+          {
+            "$oid": "68220e44ae34e035bee8ec0d"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "OpenGL 2.0 support",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "Espace disque": "100 MB d'espace disque disponible"
+    },
+    "mac": {
+      "os": {
+        "name": "MacOS",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e8"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "2.0+ GHz",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "ram": {
+        "name": "512 MB de mémoire",
+        "refs": [
+          {
+            "$oid": "68220e44ae34e035bee8ec0d"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "OpenGL 2.0 support",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "Espace disque": "100 MB d'espace disque disponible"
+    }
+  },
+  "technologies": "Cocos Engine"
+},
+{
+  "_id": {
+    "$oid": "68220e441e51a5ac031eea53"
+  },
+  "name": "Overwatch® 2",
+  "app_id": "2357570",
+  "developer": "Blizzard Entertainment, Inc.",
+  "image_url": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2357570/e9cfc3828ebc0501e81a35760c451eb3b0734dea/header.jpg?t=1745345288",
+  "price": 0,
+  "price_display": "Free-to-play",
+  "publisher": "Blizzard Entertainment, Inc.",
+  "release_date": "10 August 2023 – 18:30:00 UTC (1.8 years ago)",
+  "store_url": "https://store.steampowered.com/app/2357570/?curator_clanid=4777282&utm_source=SteamDB",
+  "supported_systems": "Windows",
+  "system_requirements": {
+    "win": {
+      "os": {
+        "name": "Windows 10",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e5"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "Intel® Core™ i3 ou AMD Phenom™ X3 8650",
+        "models": [
+          "Intel Core i3",
+          "any"
+        ],
+        "refs": []
+      },
+      "ram": {
+        "name": "6GB RAM",
+        "refs": [
+          {
+            "$oid": "6821bc547c9fa7aadc193975"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "Série NVIDIA® GeForce® GTX 600, série AMD Radeon™ HD 7000",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "DirectX": "Version 11",
+      "Réseau": "connexion internet haut débit",
+      "Espace disque": "50 GB d'espace disque disponible"
+    }
+  },
+  "technologies": ""
+},
+{
+  "_id": {
+    "$oid": "68220e441e51a5ac031eea54"
+  },
+  "name": "ARK: Survival Evolved",
+  "app_id": "346110",
+  "developer": "Studio Wildcard, Instinct Games, Efecto Studios, Virtual Basement LLC",
+  "image_url": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/346110/header.jpg?t=1745970824",
+  "price": 14.79,
+  "price_display": "14,79€",
+  "publisher": "Studio Wildcard, Snail Games USA",
+  "release_date": "29 August 2017 – 15:08:00 UTC (7.8 years ago)",
+  "store_url": "https://store.steampowered.com/app/346110/?curator_clanid=4777282&utm_source=SteamDB",
+  "supported_systems": "Windows macOS",
+  "system_requirements": {
+    "win": {
+      "os": {
+        "name": "Windows 7",
+        "refs": [
+          {
+            "$oid": "6821b438345b280235adc554"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "Intel Core i5-2400/AMD FX-8320 or better",
+        "models": [
+          "Intel Core i5-2400"
+        ],
+        "refs": [
+          {
+            "$oid": "6821c0673739a8dbd7eab686"
+          }
+        ]
+      },
+      "ram": {
+        "name": "8GB RAM",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e1"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "NVIDIA GTX 670 2GB/AMD Radeon HD 7870 2GB or better",
+        "models": [
+          "NVIDIA GeForce GTX 670",
+          "GeForce GTX 670",
+          "AMD Radeon HD 7870",
+          "Radeon HD 7870"
+        ],
+        "refs": [
+          {
+            "$oid": "6821c0613739a8dbd7eaa7d8"
+          },
+          {
+            "$oid": "6821c0613739a8dbd7eaa7d8"
+          },
+          {
+            "$oid": "6821c0653739a8dbd7eab0b1"
+          },
+          {
+            "$oid": "6821c0653739a8dbd7eab0b1"
+          }
+        ]
+      },
+      "DirectX": "Version 10",
+      "Espace disque": "60 GB d'espace disque disponible",
+      "Notes supplémentaires": "Requires broadband internet connection for multiplayer"
+    },
+    "mac": {
+      "os": {
+        "name": "MacOS",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e8"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "2 GHz Equivalent CPU",
+        "models": [
+          "2 GHz"
+        ],
+        "refs": []
+      },
+      "ram": {
+        "name": "4000 MB de mémoire",
+        "refs": [
+          {
+            "$oid": "68220e44ae34e035bee8ec0e"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "OpenGL 3 Compatible GPU with 1GB Video RAM",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "Espace disque": "20000 MB d'espace disque disponible"
+    }
+  },
+  "technologies": "BattlEye AntiCheat, Unreal Engine, EpicOnlineServices SDK"
+},
+{
+  "_id": {
+    "$oid": "68220e441e51a5ac031eea55"
+  },
+  "name": "Terraria",
+  "app_id": "105600",
+  "developer": "Re-Logic",
+  "image_url": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg?t=1731252354",
+  "price": 9.75,
+  "price_display": "9,75€",
+  "publisher": "Re-Logic",
+  "release_date": "16 May 2011 – 17:52:00 UTC (14 years ago)",
+  "store_url": "https://store.steampowered.com/app/105600/?curator_clanid=4777282&utm_source=SteamDB",
+  "supported_systems": "Windows macOS Linux",
+  "system_requirements": {
+    "win": {
+      "os": {
+        "name": "Windows 7",
+        "refs": [
+          {
+            "$oid": "6821b438345b280235adc554"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "Dual Core 3.0 Ghz",
+        "models": [
+          "3.0 GHz"
+        ],
+        "refs": []
+      },
+      "ram": {
+        "name": "4GB RAM",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e0"
+          }
+        ]
+      },
+      "Disque dur": "200 Mo d'espace disque disponible",
+      "gpu": {
+        "name": "256mb Video Memory, capable of Shader Model 2.0+",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "Version DirectX®": "9.0c ou ultérieure",
+      "Hard Disk Space": "200MB",
+      "DirectX®": "9.0c or Greater"
+    },
+    "mac": {
+      "os": {
+        "name": "MacOS",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e8"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "Dual Core 3.0 Ghz",
+        "models": [
+          "3.0 GHz"
+        ],
+        "refs": []
+      },
+      "ram": {
+        "name": "4GB RAM",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e0"
+          }
+        ]
+      },
+      "Hard Disk Space": "200MB",
+      "gpu": {
+        "name": "256mb Video Memory, capable of OpenGL 3.0+ support (2.1 with ARB extensions acceptable",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      }
+    },
+    "linux": {
+      "os": {
+        "name": "Linux",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e7"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "Dual Core 3.0 Ghz",
+        "models": [
+          "3.0 GHz"
+        ],
+        "refs": []
+      },
+      "ram": {
+        "name": "4GB RAM",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e0"
+          }
+        ]
+      },
+      "Hard Disk Space": "200MB",
+      "gpu": {
+        "name": "256mb Video Memory, capable of OpenGL 3.0+ support (2.1 with ARB extensions acceptable",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      }
+    }
+  },
+  "technologies": "FNA Engine, XNA Engine"
+},
+{
+  "_id": {
+    "$oid": "68220e441e51a5ac031eea56"
+  },
+  "name": "7 Days to Die",
+  "app_id": "251570",
+  "developer": "The Fun Pimps",
+  "image_url": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/251570/header.jpg?t=1746547982",
+  "price": 43.99,
+  "price_display": "43,99€",
+  "publisher": "The Fun Pimps Entertainment LLC",
+  "release_date": "25 July 2024 – 16:33:52 UTC (10 months ago)",
+  "store_url": "https://store.steampowered.com/app/251570/?curator_clanid=4777282&utm_source=SteamDB",
+  "supported_systems": "Windows macOS Linux",
+  "system_requirements": {
+    "win": {
+      "os": {
+        "name": "Windows 10",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e5"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "3.2 Ghz Quad Core CPU or faster",
+        "models": [
+          "3.2 GHz"
+        ],
+        "refs": []
+      },
+      "ram": {
+        "name": "12GB RAM",
+        "refs": [
+          {
+            "$oid": "68220e44ae34e035bee8ec07"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "Sound Card: DirectX® Compatible",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "DirectX": "Version 11",
+      "Réseau": "connexion internet haut débit",
+      "Espace disque": "15 GB d'espace disque disponible",
+      "Notes supplémentaires": "Running a Dedicated Server and Client on the same computer will double ram requirements. Also future releases may require more hard drive space."
+    },
+    "mac": {
+      "os": {
+        "name": "10.13",
+        "refs": [
+          {
+            "$oid": "68220e44ae34e035bee8ec10"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "3.2 Ghz Quad Core CPU or faster",
+        "models": [
+          "3.2 GHz"
+        ],
+        "refs": []
+      },
+      "ram": {
+        "name": "12GB RAM",
+        "refs": [
+          {
+            "$oid": "68220e44ae34e035bee8ec07"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "4 GB Dedicated Memory",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "Réseau": "connexion internet haut débit",
+      "Espace disque": "15 GB d'espace disque disponible",
+      "Notes supplémentaires": "Running the Dedicated Server and Client on the same computer will double ram requirements. Also future releases may require more hard drive space."
+    },
+    "linux": {
+      "os": {
+        "name": "Linux",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e7"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "3.2 Ghz Quad Core CPU or faster",
+        "models": [
+          "3.2 GHz"
+        ],
+        "refs": []
+      },
+      "ram": {
+        "name": "12GB RAM",
+        "refs": [
+          {
+            "$oid": "68220e44ae34e035bee8ec07"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "4 GB Dedicated Memory",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "Réseau": "connexion internet haut débit",
+      "Espace disque": "15 GB d'espace disque disponible",
+      "Notes supplémentaires": "Running the Dedicated Server and Client on the same computer will double ram requirements. Also future releases may require more hard drive space."
+    }
+  },
+  "technologies": "EasyAntiCheat AntiCheat, Unity Engine, EpicOnlineServices SDK"
+},
+{
+  "_id": {
+    "$oid": "68220e441e51a5ac031eea57"
+  },
+  "name": "Monster Hunter: World",
+  "app_id": "582010",
+  "developer": "CAPCOM Co., Ltd.",
+  "image_url": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/582010/header.jpg?t=1734656748",
+  "price": 29.99,
+  "price_display": "29,99€",
+  "publisher": "CAPCOM Co., Ltd.",
+  "release_date": "9 August 2018 – 15:57:00 UTC (6.8 years ago)",
+  "store_url": "https://store.steampowered.com/app/582010/?curator_clanid=4777282&utm_source=SteamDB",
+  "supported_systems": "Windows",
+  "system_requirements": {
+    "win": {
+      "os": {
+        "name": "Windows 10",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e5"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "Intel®Core™ i5 4460 ou Core™ i3 9100F ou AMD FX™-6300 ou Ryzen™ 3 3200G",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "ram": {
+        "name": "8GB RAM",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e1"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "NVIDIA®GeForce®GTX 760 ou GTX1050 ou AMD Radeon™ R7 260x ou RX 560",
+        "models": [
+          "any"
+        ],
+        "refs": []
+      },
+      "DirectX": "Version 11",
+      "Réseau": "connexion internet haut débit",
+      "Espace disque": "52 GB d'espace disque disponible"
+    }
+  },
+  "technologies": ""
+},
+{
+  "_id": {
+    "$oid": "68220e441e51a5ac031eea58"
+  },
+  "name": "The Sims™ 4",
+  "app_id": "1222670",
+  "developer": "Maxis",
+  "image_url": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1222670/header.jpg?t=1746119045",
+  "price": 0,
+  "price_display": "Free-to-play",
+  "publisher": "Electronic Arts",
+  "release_date": "18 June 2020 – 18:56:00 UTC (4.9 years ago)",
+  "store_url": "https://store.steampowered.com/app/1222670/?curator_clanid=4777282&utm_source=SteamDB",
+  "supported_systems": "Windows",
+  "system_requirements": {
+    "win": {
+      "os": {
+        "name": "Windows 10",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e5"
+          }
+        ]
+      },
+      "cpu": {
+        "name": "3,3 GHz Intel Core i3-3220 (2 cœurs, 4 threads), 3,1 GHz AMD Ryzen 3 1200 (4 cœurs) ou supérieur",
+        "models": [
+          "Intel Core i3-3220"
+        ],
+        "refs": [
+          {
+            "$oid": "6821c0663739a8dbd7eab4a7"
+          }
+        ]
+      },
+      "ram": {
+        "name": "4GB RAM",
+        "refs": [
+          {
+            "$oid": "681f4a4d6895aa8af0d861e0"
+          }
+        ]
+      },
+      "gpu": {
+        "name": "128 Mo de RAM vidéo et compatibilité avec Pixel Shader 3.0. Cartes graphiques compatibles : NVIDIA GeForce 6600 ou supérieure, ATI Radeon X1300 ou supérieure, Intel GMA X4500 ou supérieure",
+        "models": [
+          "NVIDIA GeForce 6600e",
+          "GeForce 6600e"
+        ],
+        "refs": [
+          {
+            "$oid": "6821c0603739a8dbd7eaa51e"
+          },
+          {
+            "$oid": "6821c0603739a8dbd7eaa51e"
+          }
+        ]
+      },
+      "DirectX": "Version 11"
+    }
+  },
+  "technologies": "EA_App Launcher"
+}]

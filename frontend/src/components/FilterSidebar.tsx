@@ -16,7 +16,6 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from '@/components/ui/accordion';
-import { Checkbox } from '@/components/ui/checkbox';
 import { Button } from '@/components/ui/button';
 import {
   Cpu,
@@ -26,20 +25,26 @@ import {
   Building,
   Calendar,
   DollarSign,
+  X,
 } from 'lucide-react';
 import { useGetFilters } from '@/api/queries/filterQueries';
 import React from 'react';
-
-export default function FilterSidebar() {
+import type { GameFilter } from '@/models/utils';
+export default function FilterSidebar({
+  onApplyFilters,
+}: {
+  onApplyFilters: (filters: GameFilter) => void;
+}) {
   const { data: filters, isLoading: isLoadingFilters } = useGetFilters();
 
-  // State for searches
-  const [cpuSearch, setCpuSearch] = React.useState("");
-  const [gpuSearch, setGpuSearch] = React.useState("");
-  const [ramSearch, setRamSearch] = React.useState("");
-  const [osSearch, setOsSearch] = React.useState("");
+  const [cpuSearch, setCpuSearch] = React.useState('');
+  const [gpuSearch, setGpuSearch] = React.useState('');
+  const [ramSearch, setRamSearch] = React.useState('');
+  const [osSearch, setOsSearch] = React.useState('');
+  const [priceLow, setPriceLow] = React.useState(0);
+  const [priceHigh, setPriceHigh] = React.useState(100);
+  const [search, setSearch] = React.useState('');
 
-  // Filtered data
   const filteredCpus = React.useMemo(() => {
     if (!filters?.data?.cpu) return [];
     if (!cpuSearch) return filters.data.cpu.slice(0, 50);
@@ -76,9 +81,48 @@ export default function FilterSidebar() {
     );
   }, [filters?.data?.os, osSearch]);
 
+  const handleClearFilter = (type: 'cpu' | 'gpu' | 'memory' | 'os') => {
+    switch (type) {
+      case 'cpu':
+        setCpuSearch('');
+        break;
+      case 'gpu':
+        setGpuSearch('');
+        break;
+      case 'memory':
+        setRamSearch('');
+        break;
+      case 'os':
+        setOsSearch('');
+        break;
+    }
+  };
+
   if (isLoadingFilters) {
-    return <div>Loading...</div>;
+    return <div>Chargement des filtres...</div>;
   }
+
+  const handleApplyFilters = () => {
+    console.log(
+      cpuSearch,
+      gpuSearch,
+      ramSearch,
+      osSearch,
+      search,
+      priceLow,
+      priceHigh
+    );
+    onApplyFilters({
+      cpu: cpuSearch,
+      gpu: gpuSearch,
+      memory: ramSearch,
+      os: osSearch,
+      search: search,
+      storage: '',
+      pricelow: priceLow,
+      pricehigh: priceHigh,
+    });
+  };
 
   return (
     <div className="space-y-6 pr-4">
@@ -86,12 +130,18 @@ export default function FilterSidebar() {
         <>
           <h2 className="text-xl font-bold mb-4 text-foreground">Filtres</h2>
 
-          <Accordion type="multiple" defaultValue={['name', 'hardware', 'price']}>
+          <Accordion
+            type="multiple"
+            defaultValue={['name', 'hardware', 'price']}
+          >
             <AccordionItem value="name">
               <AccordionTrigger>Nom</AccordionTrigger>
               <AccordionContent>
                 <div className="space-y-2">
-                  <Input placeholder="Rechercher par nom..." />
+                  <Input
+                    placeholder="Rechercher par nom..."
+                    onChange={e => setSearch(e.target.value)}
+                  />
                 </div>
               </AccordionContent>
             </AccordionItem>
@@ -105,18 +155,35 @@ export default function FilterSidebar() {
                       <Cpu className="h-4 w-4" />
                       CPU
                     </Label>
-                    <Select>
-                      <SelectTrigger id="cpu">
-                        <SelectValue placeholder="Sélectionner CPU" />
-                      </SelectTrigger>
-                      <SelectContent withSearch onSearchChange={setCpuSearch}>
-                        {filteredCpus.map((item) => (
-                          <SelectItem key={item.id} value={item.name}>
-                            {item.name}
-                          </SelectItem>
-                        ))}
-                      </SelectContent>
-                    </Select>
+                    {cpuSearch ? (
+                      <div className="flex items-center justify-between border rounded-md p-2">
+                        <span className="truncate">{cpuSearch}</span>
+                        <Button
+                          variant="ghost"
+                          size="icon"
+                          onClick={() => handleClearFilter('cpu')}
+                          className="h-6 w-6"
+                        >
+                          <X className="h-4 w-4" />
+                        </Button>
+                      </div>
+                    ) : (
+                      <Select onValueChange={value => setCpuSearch(value)}>
+                        <SelectTrigger id="cpu">
+                          <SelectValue placeholder="Sélectionner CPU" />
+                        </SelectTrigger>
+                        <SelectContent
+                          withSearch
+                          onSearchChange={value => setCpuSearch(value)}
+                        >
+                          {filteredCpus.map(item => (
+                            <SelectItem key={item.id} value={item.name}>
+                              {item.name}
+                            </SelectItem>
+                          ))}
+                        </SelectContent>
+                      </Select>
+                    )}
                   </div>
 
                   <div className="space-y-2">
@@ -124,18 +191,35 @@ export default function FilterSidebar() {
                       <Gpu className="h-4 w-4" />
                       GPU
                     </Label>
-                    <Select>
-                      <SelectTrigger id="gpu">
-                        <SelectValue placeholder="Sélectionner GPU" />
-                      </SelectTrigger>
-                      <SelectContent withSearch onSearchChange={setGpuSearch}>
-                        {filteredGpus.map((item) => (
-                          <SelectItem key={item.id} value={item.name}>
-                            {item.name}
-                          </SelectItem>
-                        ))}
-                      </SelectContent>
-                    </Select>
+                    {gpuSearch ? (
+                      <div className="flex items-center justify-between border rounded-md p-2">
+                        <span className="truncate">{gpuSearch}</span>
+                        <Button
+                          variant="ghost"
+                          size="icon"
+                          onClick={() => handleClearFilter('gpu')}
+                          className="h-6 w-6"
+                        >
+                          <X className="h-4 w-4" />
+                        </Button>
+                      </div>
+                    ) : (
+                      <Select onValueChange={value => setGpuSearch(value)}>
+                        <SelectTrigger id="gpu">
+                          <SelectValue placeholder="Sélectionner GPU" />
+                        </SelectTrigger>
+                        <SelectContent
+                          withSearch
+                          onSearchChange={value => setGpuSearch(value)}
+                        >
+                          {filteredGpus.map(item => (
+                            <SelectItem key={item.id} value={item.name}>
+                              {item.name}
+                            </SelectItem>
+                          ))}
+                        </SelectContent>
+                      </Select>
+                    )}
                   </div>
 
                   <div className="space-y-2">
@@ -143,18 +227,35 @@ export default function FilterSidebar() {
                       <Memory className="h-4 w-4" />
                       RAM
                     </Label>
-                    <Select>
-                      <SelectTrigger id="ram">
-                        <SelectValue placeholder="Sélectionner RAM" />
-                      </SelectTrigger>
-                      <SelectContent withSearch onSearchChange={setRamSearch}>
-                        {filteredRam.map((item) => (
-                          <SelectItem key={item.id} value={item.name}>
-                            {item.name}
-                          </SelectItem>
-                        ))}
-                      </SelectContent>
-                    </Select>
+                    {ramSearch ? (
+                      <div className="flex items-center justify-between border rounded-md p-2">
+                        <span className="truncate">{ramSearch}</span>
+                        <Button
+                          variant="ghost"
+                          size="icon"
+                          onClick={() => handleClearFilter('memory')}
+                          className="h-6 w-6"
+                        >
+                          <X className="h-4 w-4" />
+                        </Button>
+                      </div>
+                    ) : (
+                      <Select onValueChange={value => setRamSearch(value)}>
+                        <SelectTrigger id="ram">
+                          <SelectValue placeholder="Sélectionner RAM" />
+                        </SelectTrigger>
+                        <SelectContent
+                          withSearch
+                          onSearchChange={value => setRamSearch(value)}
+                        >
+                          {filteredRam.map(item => (
+                            <SelectItem key={item.id} value={item.name}>
+                              {item.name}
+                            </SelectItem>
+                          ))}
+                        </SelectContent>
+                      </Select>
+                    )}
                   </div>
 
                   <div className="space-y-2">
@@ -162,84 +263,35 @@ export default function FilterSidebar() {
                       <Monitor className="h-4 w-4" />
                       Système d'exploitation
                     </Label>
-                    <Select>
-                      <SelectTrigger id="os">
-                        <SelectValue placeholder="Sélectionner OS" />
-                      </SelectTrigger>
-                      <SelectContent withSearch onSearchChange={setOsSearch}>
-                        {filteredOs.map((item) => (
-                          <SelectItem key={item.id} value={item.name}>
-                            {item.name}
-                          </SelectItem>
-                        ))}
-                      </SelectContent>
-                    </Select>
-                  </div>
-                </div>
-              </AccordionContent>
-            </AccordionItem>
-
-            <AccordionItem value="publisher">
-              <AccordionTrigger className="flex items-center gap-2">
-                <Building className="h-4 w-4" />
-                Éditeur
-              </AccordionTrigger>
-              <AccordionContent>
-                <div className="space-y-2">
-                  <div className="flex items-center space-x-2">
-                    <Checkbox id="valve" />
-                    <label htmlFor="valve" className="text-sm">
-                      Valve
-                    </label>
-                  </div>
-                  <div className="flex items-center space-x-2">
-                    <Checkbox id="ubisoft" />
-                    <label htmlFor="ubisoft" className="text-sm">
-                      Ubisoft
-                    </label>
-                  </div>
-                  <div className="flex items-center space-x-2">
-                    <Checkbox id="ea" />
-                    <label htmlFor="ea" className="text-sm">
-                      Electronic Arts
-                    </label>
-                  </div>
-                  <div className="flex items-center space-x-2">
-                    <Checkbox id="cdpr" />
-                    <label htmlFor="cdpr" className="text-sm">
-                      CD Projekt Red
-                    </label>
-                  </div>
-                  <div className="flex items-center space-x-2">
-                    <Checkbox id="bethesda" />
-                    <label htmlFor="bethesda" className="text-sm">
-                      Bethesda
-                    </label>
-                  </div>
-                </div>
-              </AccordionContent>
-            </AccordionItem>
-
-            <AccordionItem value="year">
-              <AccordionTrigger className="flex items-center gap-2">
-                <Calendar className="h-4 w-4" />
-                Année de sortie
-              </AccordionTrigger>
-              <AccordionContent>
-                <div className="space-y-4">
-                  <div className="flex justify-between">
-                    <span className="text-sm text-muted-foreground">2010</span>
-                    <span className="text-sm text-muted-foreground">2025</span>
-                  </div>
-                  <Slider
-                    defaultValue={[2010, 2025]}
-                    min={2010}
-                    max={2025}
-                    step={1}
-                  />
-                  <div className="flex gap-2">
-                    <Input type="number" placeholder="Min" min={2010} max={2025} />
-                    <Input type="number" placeholder="Max" min={2010} max={2025} />
+                    {osSearch ? (
+                      <div className="flex items-center justify-between border rounded-md p-2">
+                        <span className="truncate">{osSearch}</span>
+                        <Button
+                          variant="ghost"
+                          size="icon"
+                          onClick={() => handleClearFilter('os')}
+                          className="h-6 w-6"
+                        >
+                          <X className="h-4 w-4" />
+                        </Button>
+                      </div>
+                    ) : (
+                      <Select onValueChange={value => setOsSearch(value)}>
+                        <SelectTrigger id="os">
+                          <SelectValue placeholder="Sélectionner OS" />
+                        </SelectTrigger>
+                        <SelectContent
+                          withSearch
+                          onSearchChange={value => setOsSearch(value)}
+                        >
+                          {filteredOs.map(item => (
+                            <SelectItem key={item.id} value={item.name}>
+                              {item.name}
+                            </SelectItem>
+                          ))}
+                        </SelectContent>
+                      </Select>
+                    )}
                   </div>
                 </div>
               </AccordionContent>
@@ -254,12 +306,35 @@ export default function FilterSidebar() {
                 <div className="space-y-4">
                   <div className="flex justify-between">
                     <span className="text-sm text-muted-foreground">0€</span>
-                    <span className="text-sm text-muted-foreground">100€</span>
+                    <span className="text-sm text-muted-foreground">500€</span>
                   </div>
-                  <Slider defaultValue={[0, 100]} min={0} max={100} step={1} />
+                  <Slider
+                    defaultValue={[0, 500]}
+                    min={0}
+                    max={500}
+                    step={1}
+                    onValueChange={value => {
+                      setPriceLow(value[0]);
+                      setPriceHigh(value[1]);
+                    }}
+                  />
                   <div className="flex gap-2">
-                    <Input type="number" placeholder="Min" min={0} max={100} />
-                    <Input type="number" placeholder="Max" min={0} max={100} />
+                    <Input
+                      type="number"
+                      placeholder="Min"
+                      value={priceLow}
+                      min={0}
+                      max={100}
+                      onChange={e => setPriceLow(Number(e.target.value))}
+                    />
+                    <Input
+                      type="number"
+                      placeholder="Max"
+                      value={priceHigh}
+                      min={0}
+                      max={100}
+                      onChange={e => setPriceHigh(Number(e.target.value))}
+                    />
                   </div>
                 </div>
               </AccordionContent>
@@ -267,7 +342,9 @@ export default function FilterSidebar() {
           </Accordion>
         </>
       )}
-      <Button className="w-full mt-4">Appliquer les filtres</Button>
+      <Button className="w-full mt-4" onClick={handleApplyFilters}>
+        Appliquer les filtres
+      </Button>
     </div>
   );
 }

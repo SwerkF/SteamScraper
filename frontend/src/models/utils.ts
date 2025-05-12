@@ -1,9 +1,10 @@
-import type { Cpu, Gpu, Memory, OS } from "./game";
+import type { Cpu, Gpu, Memory, OS } from './game';
 
 export interface JsonResponse<T> {
   success: boolean;
   message?: string;
   data?: T;
+  count?: number;
 }
 
 export interface GameFilter {
@@ -15,6 +16,7 @@ export interface GameFilter {
   os: string;
   pricelow: number;
   pricehigh: number;
+  page?: number;
 }
 
 export interface Filters {

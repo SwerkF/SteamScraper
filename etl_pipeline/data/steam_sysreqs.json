@@ -1,0 +1,921 @@
+{
+    "Counter-Strike 2": {
+        "config": {
+            "win": {
+                "Système d'exploitation": "Windows® 10",
+                "Processeur": "processeur Intel® Core™ i5-750 à 4 threads (ou mieux)",
+                "Mémoire vive": "8 GB de mémoire",
+                "Graphiques": "la carte graphique doit avoir au moins 1 Go de mémoire et être compatible avec DirectX 11 et Shader Model 5.0",
+                "DirectX": "Version 11",
+                "Espace disque": "85 GB d'espace disque disponible"
+            },
+            "linux": {
+                "Système d'exploitation": "Ubuntu 20.04",
+                "Processeur": "Processeur Intel® Core™ i5-750 à 4 cœurs (ou mieux)",
+                "Mémoire vive": "8 GB de mémoire",
+                "Graphiques": "AMD GCN+ ou NVIDIA Kepler+ avec pilotes Vulkan à jour. Prise en charge de VK_EXT_graphics_pipeline_library vivement recommandée.",
+                "Espace disque": "85 GB d'espace disque disponible",
+                "Carte son": "vivement recommandée"
+            }
+        },
+        "price": "Free-to-play"
+    },
+    "PUBG: BATTLEGROUNDS": {
+        "config": {
+            "win": {
+                "Système d'exploitation": "64-bit Windows 10",
+                "Processeur": "Intel Core i5-4430 / AMD FX-6300",
+                "Mémoire vive": "8 GB de mémoire",
+                "Graphiques": "NVIDIA GeForce GTX 960 2GB / AMD Radeon R7 370 2GB",
+                "DirectX": "Version 11",
+                "Réseau": "connexion internet haut débit",
+                "Espace disque": "40 GB d'espace disque disponible"
+            }
+        },
+        "price": "Free-to-play"
+    },
+    "Dota 2": {
+        "config": {
+            "win": {
+                "Système d'exploitation  *": "Windows 7 ou version ultérieure",
+                "Processeur": "Intel ou AMD Dual-Core à 2,8 GHz",
+                "Mémoire vive": "4 GB de mémoire",
+                "Graphiques": "NVIDIA GeForce 8600/9600GT, ATI/AMD Radeon HD2600/3600",
+                "DirectX": "Version 11",
+                "Réseau": "connexion internet haut débit",
+                "Espace disque": "60 GB d'espace disque disponible",
+                "Carte son": "compatible avec DirectX"
+            },
+            "mac": {
+                "Système d'exploitation": "macOS 10.13. ou version ultérieure",
+                "Processeur": "Intel Dual-Core",
+                "Mémoire vive": "4 GB de mémoire",
+                "Graphiques": "NVIDIA 320M (ou version ultérieure), Radeon HD 2400 (ou version ultérieure) ou Intel HD 3000 (ou version ultérieure)",
+                "Réseau": "connexion internet haut débit",
+                "Espace disque": "60 GB d'espace disque disponible"
+            },
+            "linux": {
+                "Système d'exploitation": "Ubuntu 12.04 ou version ultérieure",
+                "Processeur": "Intel ou AMD Dual-Core à 2,8 GHz",
+                "Mémoire vive": "4 GB de mémoire",
+                "Graphiques": "NVIDIA GeForce 8600 ou 9600 GT (pilote version 331), AMD HD 2xxx à 4xxx (pilote Mesa 10.5.9), AMD HD 5xxx+ (pilote Mesa 10.5.9 ou Catalyst 15.7) ou Intel HD 3000 (pilote Mesa 10.6)",
+                "Réseau": "connexion internet haut débit",
+                "Espace disque": "60 GB d'espace disque disponible",
+                "Carte son": "compatible avec OpenAL"
+            }
+        },
+        "price": "Free-to-play"
+    },
+    "Apex Legends": {
+        "config": {
+            "win": {
+                "Système d'exploitation": "64-bit Windows 10",
+                "Processeur": "AMD FX 4350 or Equivalent, Intel Core i3 6300 or Equivalent",
+                "Mémoire vive": "6 GB de mémoire",
+                "Graphiques": "AMD Radeon™ HD 7790, NVIDIA GeForce® GTX 950",
+                "DirectX": "Version 12",
+                "Réseau": "connexion internet haut débit",
+                "Espace disque": "75 GB d'espace disque disponible",
+                "Notes supplémentaires": "~3.8GB for 1 localized language"
+            }
+        },
+        "price": "Free-to-play"
+    },
+    "Bongo Cat": {
+        "config": {
+            "win": {
+                "Système d'exploitation": "Windows 10 / 11",
+                "Processeur": "Intel i5 5200 or AMD Ryzen 5 5600X",
+                "Mémoire vive": "1 GB de mémoire",
+                "Graphiques": "Any",
+                "Réseau": "connexion internet haut débit",
+                "Espace disque": "100 MB d'espace disque disponible"
+            }
+        },
+        "price": "Free-to-play"
+    },
+    "Delta Force": {
+        "config": {
+            "win": {
+                "Système d'exploitation": "Windows 10 64 bit",
+                "Processeur": "Intel Core i3-4150 / AMD FX-6300",
+                "Mémoire vive": "8 GB de mémoire",
+                "Graphiques": "Nvidia Geforce GTX 660 / AMD HD 7870 / Intel Arc A380",
+                "DirectX": "Version 12",
+                "Réseau": "connexion internet haut débit",
+                "Espace disque": "88 GB d'espace disque disponible"
+            }
+        },
+        "price": "Free-to-play"
+    },
+    "NARAKA: BLADEPOINT": {
+        "config": {
+            "win": {
+                "Système d'exploitation  *": "Windows 7 64-bit or newer",
+                "Processeur": "Intel i5 4th generation or AMD FX 6300 or equivalent",
+                "Mémoire vive": "8 GB de mémoire",
+                "Graphiques": "NVIDIA GeForce GTX 750TI, Intel Arc A380, AMD HD 6950 or equivalent",
+                "DirectX": "Version 11",
+                "Réseau": "connexion internet haut débit",
+                "Espace disque": "55 GB d'espace disque disponible",
+                "Notes supplémentaires": "a) Can run at 720p/60fps; b) We advise you install the game on an SSD for a more streamlined experience. c) Requires “Windows Memory integrity and VBS enablement” to be disabled"
+            }
+        },
+        "price": "Free-to-play"
+    },
+    "Banana": {
+        "config": {
+            "win": {
+                "Système d'exploitation  *": "Windows 7 / 8 / 10 / 11",
+                "Processeur": "Intel i5 10500 / AMD Ryzen 7+",
+                "Mémoire vive": "4 GB de mémoire",
+                "Graphiques": "Any",
+                "Réseau": "connexion internet haut débit",
+                "Espace disque": "4 GB d'espace disque disponible"
+            },
+            "linux": {
+                "Système d'exploitation": "Linux",
+                "Processeur": "Intel i5 10500 / AMD Ryzen 7+",
+                "Mémoire vive": "4 GB de mémoire",
+                "Graphiques": "Any",
+                "Espace disque": "4 GB d'espace disque disponible"
+            }
+        },
+        "price": "Free-to-play"
+    },
+    "Rust": {
+        "config": {
+            "win": {
+                "Système d'exploitation": "Windows 11 64bit",
+                "Processeur": "Intel Core i7-4790K / AMD Ryzen 5 2600 or better",
+                "Mémoire vive": "16 GB de mémoire",
+                "Graphiques": "RTX 3060 / RX 570 Series or better",
+                "DirectX": "Version 12",
+                "Réseau": "connexion internet haut débit",
+                "Espace disque": "40 GB d'espace disque disponible",
+                "Notes supplémentaires": "SSD Required"
+            },
+            "mac": {
+                "Système d'exploitation": "macOS Monterey (version 12)",
+                "Processeur": "Apple M1 Pro / Max / Ultra",
+                "Mémoire vive": "16 GB de mémoire",
+                "Graphiques": "Apple M1 Pro / Max / Ultra",
+                "Réseau": "connexion internet haut débit",
+                "Espace disque": "40 GB d'espace disque disponible"
+            }
+        },
+        "price": "39,99€"
+    },
+    "Wallpaper Engine": {
+        "config": {
+            "win": {
+                "Système d'exploitation": "Windows 10, Windows 11",
+                "Processeur": "1.66 GHz Intel i5 or equivalent",
+                "Mémoire vive": "1024 MB de mémoire",
+                "Graphiques": "HD Graphics 4000 or above",
+                "DirectX": "Version 11",
+                "Espace disque": "512 MB d'espace disque disponible",
+                "Notes supplémentaires": "Les versions Windows N requièrent le 'Media Feature Pack' de Microsoft."
+            }
+        },
+        "price": "4,99€"
+    },
+    "War Thunder": {
+        "config": {
+            "win": {
+                "Système d'exploitation": "Windows 10/11 (64bit)",
+                "Processeur": "Intel Core i5 or Ryzen 5 3600 or better",
+                "Mémoire vive": "16 GB de mémoire",
+                "Graphiques": "DirectX 11 level video card or higher and drivers: Nvidia GeForce 1060 and higher, Radeon RX 570 and higher",
+                "DirectX": "Version 12",
+                "Réseau": "connexion internet haut débit",
+                "Espace disque": "95 GB d'espace disque disponible",
+                "Prise en charge VR": "SteamVR. Keyboard or gamepad required"
+            },
+            "mac": {
+                "Système d'exploitation": "OS Big Sur v. 10.16 or newer",
+                "Processeur": "Intel Core i7 (Xeon processors not supported)",
+                "Mémoire vive": "8 GB de mémoire",
+                "Graphiques": "Radeon Vega II or higher with Metal support",
+                "Réseau": "connexion internet haut débit",
+                "Espace disque": "95 GB d'espace disque disponible"
+            },
+            "linux": {
+                "Système d'exploitation": "Ubuntu 20.04 64bit",
+                "Processeur": "Intel Core i7",
+                "Mémoire vive": "16 GB de mémoire",
+                "Graphiques": "NVIDIA 1060 with latest proprietary drivers (not older than 6 months) / similar AMD (Radeon RX 570) with latest proprietary drivers (not older than 6 months) with Vulkan support.",
+                "Réseau": "connexion internet haut débit",
+                "Espace disque": "95 GB d'espace disque disponible"
+            }
+        },
+        "price": "Free-to-play"
+    },
+    "Grand Theft Auto V Legacy": {
+        "config": {
+            "win": {
+                "Système d'exploitation": "Windows 10 64 Bit",
+                "Processeur": "Intel Core 2 Quad CPU Q6600 @ 2,40 GHz (4 CPU) / AMD Phenom 9850 Quad-Core Processor (4 CPU) @ 2,5 GHz",
+                "Mémoire vive": "4 GB de mémoire",
+                "Graphiques": "NVIDIA 9800 GT 1 Go / AMD HD 4870 1 Go (DX 10, 10.1, 11)",
+                "Espace disque": "120 GB d'espace disque disponible",
+                "Carte son": "100% compatible avec DirectX 10",
+                "Notes supplémentaires": "Avec le temps, le contenu téléchargeable et les mises à jour modifieront les configurations nécessaires pour ce jeu. Consultez le fabricant de votre matériel et rendez-vous sur pour des informations sur la compatibilité actuelle. Toute spécification non indiquée ici ainsi que certains composants système comme les chipsets pour ordinateurs portables, les cartes intégrées et les cartes graphiques AGP pourraient ne pas être compatibles. Autres éléments nécessaires : l'installation et le jeu en ligne nécessitent une connexion au Rockstar Games Social Club (13 ans et plus). Une connexion Internet est nécessaire pour l'activation, le jeu en ligne et les vérifications périodiques. L'installation de logiciels comme la plateforme Rockstar Games Social Club, DirectX, Chrome et Microsoft Visual C++ 2008 sp1 Redistributable Package, est nécessaire, ainsi que l'installation d'un logiciel d'authentification qui reconnaît votre matériel pour vous identifier, gérer les droits numériques, le système et autres actions relatives à l'assistance. ENREGISTREMENT DU CODE SÉRIE À USAGE UNIQUE VIA INTERNET REQUIS. ENREGISTREMENT LIMITÉ À UN COMPTE ROCKSTAR GAMES SOCIAL CLUB (13 ANS ET PLUS) PAR CODE SÉRIE. CONNEXION LIMITÉE À UN SEUL PC À LA FOIS PAR COMPTE SOCIAL CLUB. CODE(S) SÉRIE NON-TRANSFÉRABLE(S) UNE FOIS UTILISÉ(S). LES COMPTES SOCIAL CLUB NE SONT PAS TRANSFÉRABLES. Conditions de partenariat : veuillez consulter les conditions d'utilisation de ce site avant d'acheter ce logiciel."
+            }
+        },
+        "price": null
+    },
+    "Stardew Valley": {
+        "config": {
+            "win": {
+                "Système d'exploitation  *": "Windows Vista or greater",
+                "Processeur": "2 Ghz",
+                "Mémoire vive": "2 GB de mémoire",
+                "Graphiques": "256 mb video memory, shader model 3.0+",
+                "DirectX": "Version 10",
+                "Espace disque": "500 MB d'espace disque disponible"
+            },
+            "mac": {
+                "Système d'exploitation": "Mac OSX 10.10+",
+                "Processeur": "2 Ghz",
+                "Mémoire vive": "2 GB de mémoire",
+                "Graphiques": "256 mb video memory, OpenGL 2",
+                "Espace disque": "500 MB d'espace disque disponible"
+            },
+            "linux": {
+                "Système d'exploitation": "Ubuntu 12.04 LTS",
+                "Processeur": "2 Ghz",
+                "Mémoire vive": "2 GB de mémoire",
+                "Graphiques": "256 mb video memory, OpenGL 2",
+                "Espace disque": "500 MB d'espace disque disponible"
+            }
+        },
+        "price": "13,99€"
+    },
+    "Clair Obscur: Expedition 33": {
+        "config": {
+            "win": {
+                "Système d'exploitation": "Windows 10",
+                "Processeur": "Intel Core i7-8700K / AMD Ryzen 5 1600X",
+                "Mémoire vive": "8 GB de mémoire",
+                "Graphiques": "NVIDIA GeForce GTX 1060 6 GB / AMD Radeon RX 5600 XT 6 GB / Intel Arc A380 6 GB",
+                "DirectX": "Version 12",
+                "Espace disque": "55 GB d'espace disque disponible",
+                "Notes supplémentaires": "Disque SSD requis. Les spécifications minimales permettent un gameplay en 1080p à 30FPS avec des paramètres faibles."
+            }
+        },
+        "price": "49,99€"
+    },
+    "Marvel Rivals": {
+        "config": {
+            "win": {
+                "Système d'exploitation": "Windows 10 64-bit (1909 or newer)",
+                "Processeur": "Intel Core i5-6600K or AMD Ryzen 5 1600X",
+                "Mémoire vive": "16 GB de mémoire",
+                "Graphiques": "NVIDIA GeForce GTX 1060 / AMD RX 580 / Intel Arc A380",
+                "DirectX": "Version 12",
+                "Réseau": "connexion internet haut débit",
+                "Espace disque": "70 GB d'espace disque disponible",
+                "Notes supplémentaires": "We recommend you install the game on SSD drive for better experience."
+            }
+        },
+        "price": "Free-to-play"
+    },
+    "Grand Theft Auto V Enhanced": {
+        "config": {
+            "win": {
+                "Système d'exploitation": "Windows 10 (latest service pack)",
+                "Processeur": "Intel® Core™ i7-4770 | AMD FX™-9590",
+                "Mémoire vive": "8 GB de mémoire",
+                "Graphiques": "NVIDIA GeForce® GTX 1630 (4GB VRAM) | AMD Radeon™ RX 6400 (4GB VRAM)",
+                "Espace disque": "105 GB d'espace disque disponible",
+                "Carte son": "DirectX 10 Compatible",
+                "Notes supplémentaires": "SSD Required | Over time downloadable content and programming changes will change the system requirements for this game. Please refer to your hardware manufacturer and for current compatibility information. Some system components such as mobile chipsets, integrated, and AGP graphics cards may be incompatible. Unlisted specifications may not be supported by publisher. Other requirements: Installation and online play requires log-in to Rockstar Games account (minimum age varies) network; internet connection required for activation, online play, and periodic entitlement verification; software installations required including Rockstar Games Launcher, DirectX, Chromium, and Microsoft Visual C++ 2008 sp1 Redistributable Package, and authentication and verification software that recognizes certain hardware attributes for entitlement, digital rights management, anti-cheat and moderation software, system, and other support purposes. *Compatible PC and/or device required. 3D Audio via Windows Spatial Sound compatible audio systems"
+            }
+        },
+        "price": "29,99€"
+    },
+    "Baldur's Gate 3": {
+        "config": {
+            "win": {
+                "Système d'exploitation": "Windows 10 64-bit",
+                "Processeur": "Intel i7 8700K / AMD r5 3600",
+                "Mémoire vive": "16 GB de mémoire",
+                "Graphiques": "Nvidia 2060 Super / RX 5700 XT (8GB+ of VRAM)",
+                "DirectX": "Version 11",
+                "Espace disque": "150 GB d'espace disque disponible",
+                "Notes supplémentaires": "SSD required"
+            },
+            "mac": {
+                "Système d'exploitation": "Latest macOS",
+                "Processeur": "Apple M1 Pro or better",
+                "Mémoire vive": "16 GB de mémoire",
+                "Graphiques": "Apple M1 Pro or better",
+                "Espace disque": "150 GB d'espace disque disponible",
+                "Notes supplémentaires": "Recommended specs can run the game on high or ultra settings. SSD required."
+            }
+        },
+        "price": "59,99€"
+    },
+    "R.E.P.O.": {
+        "config": {
+            "win": {
+                "Système d'exploitation": "Windows 10",
+                "Processeur": "Core i5 6600",
+                "Mémoire vive": "8 GB de mémoire",
+                "Graphiques": "GTX 970",
+                "DirectX": "Version 10",
+                "Réseau": "connexion internet haut débit",
+                "Espace disque": "1 GB d'espace disque disponible"
+            }
+        },
+        "price": "9,75€"
+    },
+    "EA SPORTS FC 25": {
+        "config": {
+            "win": {
+                "Système d'exploitation": "Windows 10 - 64-Bit (Latest Update)",
+                "Processeur": "AMD Ryzen 5 1600 or Intel Core i5 6600k",
+                "Mémoire vive": "8 GB de mémoire",
+                "Graphiques": "AMD RX 570 or Nvidia GTX 1050 Ti",
+                "DirectX": "Version 12",
+                "Réseau": "connexion internet haut débit",
+                "Espace disque": "100 GB d'espace disque disponible",
+                "Carte son": "DirectX: 12 Compatible video card or equivalent (feature level 12_0)"
+            }
+        },
+        "price": "0,99€"
+    },
+    "Monster Hunter Wilds": {
+        "config": {
+            "win": {
+                "Système d'exploitation": "Windows®10 (64 bits requis)/Windows®11 (64 bits requis)",
+                "Processeur": "Intel® Core™ i5-10400 or Intel® Core™ i3-12100 or AMD Ryzen™ 5 3600",
+                "Mémoire vive": "16 GB de mémoire",
+                "Graphiques": "NVIDIA® GeForce® GTX 1660(VRAM 6GB) or AMD Radeon™ RX 5500 XT(VRAM 8GB)",
+                "DirectX": "Version 12",
+                "Réseau": "connexion internet haut débit",
+                "Espace disque": "75 GB d'espace disque disponible"
+            }
+        },
+        "price": "69,99€"
+    },
+    "Football Manager 2024": {
+        "config": {
+            "win": {
+                "Système d'exploitation": "Windows 10/11 with updates - 64 bit",
+                "Processeur": "Intel Core 2 or AMD Athlon 64 X2",
+                "Mémoire vive": "4 GB de mémoire",
+                "Graphiques": "Intel GMA X4500, NVIDIA GeForce 9600M GT, AMD/ATI Mobility Radeon HD 3650 - requires 256MB VRAM and DirectX® 11",
+                "DirectX": "Version 11",
+                "Espace disque": "7 GB d'espace disque disponible",
+                "Notes supplémentaires": "Display: 1024x768. Performance scales with higher-end systems."
+            },
+            "mac": {
+                "Système d'exploitation": "11/12/13 with updates",
+                "Processeur": "Apple M1 or Intel Core M",
+                "Mémoire vive": "4 GB de mémoire",
+                "Graphiques": "Apple M1, Intel HD Graphics 5000, NVIDIA GeForce GT 750M - requires 256MB VRAM and Metal",
+                "Espace disque": "7 GB d'espace disque disponible"
+            }
+        },
+        "price": "59,99€"
+    },
+    "V Rising": {
+        "config": {
+            "win": {
+                "Système d'exploitation": "Windows 10 64 bit",
+                "Processeur": "Intel Core i5-6600, 3.3 GHz or AMD Ryzen 5 1500X, 3.5 GHz",
+                "Mémoire vive": "12 GB de mémoire",
+                "Graphiques": "NVIDIA GeForce GTX 750 Ti (Maxwell ou plus récent), 2 GB ou AMD Radeon R7 360, 2 GB",
+                "DirectX": "Version 11",
+                "Réseau": "connexion internet haut débit",
+                "Espace disque": "19 GB d'espace disque disponible",
+                "Notes supplémentaires": "La configuration minimale requise pourrait changer dans le futur."
+            }
+        },
+        "price": ""
+    },
+    "Tom Clancy's Rainbow Six Siege": {
+        "config": {
+            "win": {
+                "Système d'exploitation": "Windows 10, Windows 11 (64-bit versions)",
+                "Processeur": "AMD Ryzen 3 1200 @ 3.1 GHz, Intel Core i5-4590 @ 3.3 GHz, or better",
+                "Mémoire vive": "8 GB de mémoire",
+                "Graphiques": "AMD RX 460 (2 GB), NVIDIA GeForce GTX 750 Ti (2 GB), or better",
+                "DirectX": "Version 12",
+                "Réseau": "connexion internet haut débit",
+                "Espace disque": "86 GB d'espace disque disponible",
+                "Carte son": "DirectX® 9.0c compatible sound card with latest drivers"
+            }
+        },
+        "price": "19,99€"
+    },
+    "Call of Duty®": {
+        "config": {
+            "win": {
+                "Système d'exploitation": "Windows® 10 64 Bit (dernière mise à jour)",
+                "Processeur": "AMD Ryzen™ 5 1400 ou Intel® Core™ i5-6600",
+                "Mémoire vive": "8 GB de mémoire",
+                "Graphiques": "AMD Radeon™ RX 470, NVIDIA® GeForce® GTX 960 ou Intel® Arc™ A580",
+                "DirectX": "Version 12",
+                "Réseau": "connexion internet haut débit",
+                "Notes supplémentaires": "SSD avec 128 Go d'espace disponible au lancement"
+            }
+        },
+        "price": "79,99€"
+    },
+    "Dead by Daylight": {
+        "config": {
+            "win": {
+                "Système d'exploitation": "Système d'exploitation 64 bits (Windows 10)",
+                "Processeur": "Intel Core i3-4170 ou AMD FX-8120",
+                "Mémoire vive": "8 GB de mémoire",
+                "Graphiques": "Carte compatible DX11 GeForce GTX 460 1GB ou AMD HD 6850 1GB",
+                "DirectX": "Version 11",
+                "Réseau": "connexion internet haut débit",
+                "Espace disque": "50 GB d'espace disque disponible",
+                "Carte son": "Compatible DX11"
+            }
+        },
+        "price": "19,99€"
+    },
+    "NBA 2K25": {
+        "config": {
+            "win": {
+                "Système d'exploitation": "Windows 10 64-Bit (latest update)",
+                "Processeur": "Intel® Core™ i3-9100 or AMD Ryzen™ 3 1200",
+                "Mémoire vive": "8 GB de mémoire",
+                "Graphiques": "NVIDIA® GeForce® GTX 960 4 GB or AMD Radeon™ RX 570 4 GB or Intel® Arc™ A580",
+                "DirectX": "Version 12",
+                "Réseau": "connexion internet haut débit",
+                "Espace disque": "150 GB d'espace disque disponible"
+            }
+        },
+        "price": "79,99€"
+    },
+    "Once Human": {
+        "config": {
+            "win": {
+                "Système d'exploitation": "Windows 10 64-bit Operating System",
+                "Processeur": "Intel Core i5-4460",
+                "Mémoire vive": "8 GB de mémoire",
+                "Graphiques": "Nvidia GTX 750ti 4G / AMD Radeon RX550",
+                "DirectX": "Version 11",
+                "Réseau": "connexion internet haut débit",
+                "Espace disque": "83 GB d'espace disque disponible",
+                "Notes supplémentaires": "SSD is highly recommended"
+            }
+        },
+        "price": "Free-to-play"
+    },
+    "Hearts of Iron IV": {
+        "config": {
+            "win": {
+                "Système d'exploitation": "Windows® 10 Home 64 bit",
+                "Processeur": "Intel® Core™ i5 2500K | AMD® Ryzen 3 2200G",
+                "Mémoire vive": "6 GB de mémoire",
+                "Graphiques": "Nvidia® GeForce™ GTX 570 (1.28GB) | AMD® Radeon™ HD 7970 (3GB) | Intel Iris Xe G7 (Tiger Lake)",
+                "DirectX": "Version 9.0c",
+                "Espace disque": "2 GB d'espace disque disponible",
+                "Carte son": "Direct X- compatible soundcard.",
+                "Notes supplémentaires": "Mouse and keyboard are required. / Latest available WHQL drivers from both manufacturers. / Internet Connection or LAN for multiplayer, Up to 32 other players in multiplayer mode."
+            },
+            "mac": {
+                "Système d'exploitation": "OS: macOS 10.14 (Mojave)",
+                "Processeur": "Intel Core i5 @ 2.90 GHz or better",
+                "Mémoire vive": "8 GB de mémoire",
+                "Graphiques": "ATI Radeon R9 390M or NVIDIA GeForce 750M with 1GB VRAM",
+                "Espace disque": "2 GB d'espace disque disponible",
+                "Notes supplémentaires": "Mouse and keyboard are required. / Latest available proprietary drivers from both manufacturers/ Internet Connection or LAN for multiplayer, Up to 32 other players in multiplayer mode."
+            },
+            "linux": {
+                "Système d'exploitation": "OS: Ubuntu 20.04",
+                "Processeur": "Intel Core i5 750 @ 2.66 GHz / AMD Phenom II X4 955 @ 3.20 GHz",
+                "Mémoire vive": "4 GB de mémoire",
+                "Graphiques": "ATI Radeon HD 6950 or NVIDIA GeForce GTX570 with 2GB VRAM / Latest available proprietary drivers from both manufacturers",
+                "Espace disque": "2 GB d'espace disque disponible",
+                "Notes supplémentaires": "Controller support: 3-button mouse, keyboard, and speakers are required. / Internet Connection or LAN for multiplayer, Up to 32 other players in multiplayer mode."
+            }
+        },
+        "price": ""
+    },
+    "Don't Starve Together": {
+        "config": {
+            "win": {
+                "Système d'exploitation  *": "Windows Vista/Windows 7/Windows 8",
+                "Processeur": "1.7+ GHz or better",
+                "Mémoire vive": "1 GB de mémoire",
+                "Graphiques": "Radeon HD5450 or better; 256 MB or higher",
+                "DirectX": "Version 9.0c",
+                "Réseau": "connexion internet haut débit",
+                "Espace disque": "3 GB d'espace disque disponible",
+                "Carte son": "100% DirectX9.0c compatible sound card and drivers"
+            },
+            "mac": {
+                "Système d'exploitation": "Lion (OSX 10.7.X)",
+                "Processeur": "2.0 GHz Intel",
+                "Mémoire vive": "4 GB de mémoire",
+                "Graphiques": "NVidia or ATI graphics card",
+                "Réseau": "connexion internet haut débit",
+                "Espace disque": "3 GB d'espace disque disponible",
+                "Notes supplémentaires": "Not recommended for Intel GMA Graphics or Mac Minis or early-generation MacBooks"
+            },
+            "linux": {
+                "Processeur": "1.7+ GHz or better",
+                "Mémoire vive": "1 GB de mémoire",
+                "Graphiques": "Radeon HD5450 or better; 256 MB or higher",
+                "Réseau": "connexion internet haut débit",
+                "Espace disque": "3 GB d'espace disque disponible"
+            }
+        },
+        "price": "14,99€"
+    },
+    "Crosshair X": {
+        "config": {
+            "win": {
+                "Système d'exploitation": "Windows 10"
+            }
+        },
+        "price": "7,99€"
+    },
+    "VRChat": {
+        "config": {
+            "win": {
+                "Système d'exploitation": "Windows 10/11",
+                "Processeur": "Intel® i5-4590 / AMD FX 8350 equivalent or greater",
+                "Mémoire vive": "4 GB de mémoire",
+                "Graphiques": "NVIDIA GeForce® GTX 970 / AMD Radeon™ R9 290 equivalent or greater",
+                "DirectX": "Version 11",
+                "Réseau": "connexion internet haut débit",
+                "Espace disque": "1 GB d'espace disque disponible",
+                "Prise en charge VR": "SteamVR"
+            }
+        },
+        "price": "Free-to-play"
+    },
+    "Team Fortress 2": {
+        "config": {
+            "win": {
+                "Système d'exploitation  *": "Windows® 7 (32/64-bit)",
+                "Processeur": "Pentium 4 processor (3.0GHz, or better)",
+                "Mémoire vive": "1 GB de mémoire",
+                "DirectX": "Version 9.0c",
+                "Réseau": "connexion internet haut débit",
+                "Espace disque": "15 GB d'espace disque disponible"
+            },
+            "linux": {
+                "Système d'exploitation": "Ubuntu 12.04",
+                "Processeur": "Dual core from Intel or AMD at 2.8 GHz",
+                "Mémoire vive": "1 GB de mémoire",
+                "Graphiques": "nVidia GeForce 8600/9600GT, ATI/AMD Radeon HD2600/3600 (Graphic Drivers: nVidia 310, AMD 12.11), OpenGL 2.1",
+                "Réseau": "connexion internet haut débit",
+                "Espace disque": "15 GB d'espace disque disponible",
+                "Carte son": "OpenAL Compatible Sound Card"
+            }
+        },
+        "price": "Free-to-play"
+    },
+    "Path of Exile 2": {
+        "config": {
+            "win": {
+                "Système d'exploitation": "Windows 10",
+                "Processeur": "4 core 2.8GHz x64-compatible",
+                "Mémoire vive": "8 GB de mémoire",
+                "Graphiques": "NVIDIA® GeForce® GTX 960 ou ATI Radeon™ RX 470",
+                "DirectX": "Version 12",
+                "Réseau": "connexion internet haut débit",
+                "Espace disque": "100 GB d'espace disque disponible",
+                "Notes supplémentaires": "A GPU with at least 3GB of VRAM is required"
+            }
+        },
+        "price": "27,75€"
+    },
+    "ELDEN RING": {
+        "config": {
+            "win": {
+                "Système d'exploitation": "Windows 10",
+                "Processeur": "INTEL CORE I5-8400 or AMD RYZEN 3 3300X",
+                "Mémoire vive": "12 GB de mémoire",
+                "Graphiques": "NVIDIA GEFORCE GTX 1060 3 GB or AMD RADEON RX 580 4 GB",
+                "DirectX": "Version 12",
+                "Espace disque": "60 GB d'espace disque disponible",
+                "Carte son": "Windows Compatible Audio Device"
+            }
+        },
+        "price": "59,99€"
+    },
+    "Red Dead Redemption 2": {
+        "config": {
+            "win": {
+                "Système d'exploitation": "Windows 10 - 64-bit",
+                "Processeur": "Intel® Core™ i5-2500K / AMD FX-6300",
+                "Mémoire vive": "8 GB de mémoire",
+                "Graphiques": "Nvidia GeForce GTX 770 2GB / AMD Radeon R9 280 3GB",
+                "Réseau": "connexion internet haut débit",
+                "Espace disque": "150 GB d'espace disque disponible",
+                "Carte son": "Direct X Compatible"
+            }
+        },
+        "price": "59,99€"
+    },
+    "Schedule I": {
+        "config": {
+            "win": {
+                "Système d'exploitation": "Windows 10 (64-bit)",
+                "Processeur": "3GHz 4-Core or similar",
+                "Mémoire vive": "8 GB de mémoire",
+                "Graphiques": "GeForce GTX 1060 or Radeon RX 580",
+                "Espace disque": "8 GB d'espace disque disponible"
+            }
+        },
+        "price": "19,50€"
+    },
+    "DayZ": {
+        "config": {
+            "win": {
+                "Système d'exploitation": "Windows 10 64-bit",
+                "Processeur": "Intel Core i5-4430",
+                "Mémoire vive": "8 GB de mémoire",
+                "Graphiques": "NVIDIA GeForce GTX 760 or AMD R9 270X",
+                "DirectX": "Version 11",
+                "Espace disque": "25 GB d'espace disque disponible",
+                "Carte son": "DirectX®-compatible",
+                "Notes supplémentaires": "Internet connection"
+            }
+        },
+        "price": "57,99€"
+    },
+    "Sid Meier's Civilization VI": {
+        "config": {
+            "win": {
+                "Système d'exploitation  *": "Windows 7x64 / Windows 8.1x64 / Windows 10x64",
+                "Processeur": "Fourth Generation Intel Core i5 2.5 Ghz or AMD FX8350 4.0 Ghz or greater",
+                "Mémoire vive": "8 GB de mémoire",
+                "Graphiques": "2GB & AMD 7970 or nVidia 770 or greater",
+                "DirectX": "Version 11",
+                "Espace disque": "23 GB d'espace disque disponible",
+                "Carte son": "DirectX Compatible Sound Device",
+                "Notes supplémentaires": "Initial installation requires one-time Internet connection for Steam authentication; software installations required (included with the game) include Steam Client, Microsoft Visual C++ 2012 and 2015 Runtime Libraries, and Microsoft DirectX. Internet connection and acceptance of Steam™ Subscriber Agreement required for activation. See for details."
+            },
+            "mac": {
+                "Système d'exploitation": "10.14.6 (Mojave)",
+                "Processeur": "Intel Core i5 2.7Ghz",
+                "Mémoire vive": "6 GB de mémoire",
+                "Graphiques": "1 GB GPU Minimum - GeForce 775M | Radeon HD 6970 | Intel Iris Pro",
+                "Espace disque": "17 GB d'espace disque disponible",
+                "Notes supplémentaires": "NOTICE: It is possible for Mac and PC to become out of sync during updates or patches. Within this time period, Mac users will only be able to play other Mac users."
+            },
+            "linux": {
+                "Système d'exploitation": "Ubuntu 16.04 (64bit)",
+                "Processeur": "Intel Core i3 530 or AMD A8-3870",
+                "Mémoire vive": "6 GB de mémoire",
+                "Graphiques": "1 GB VRAM Minimum - NVIDIA GeForce 650",
+                "Espace disque": "17 GB d'espace disque disponible",
+                "Notes supplémentaires": "IMPORTANT NOTICE: Some Intel i3 Processors may require an additional 2 GB Swap Partition. IMPORTANT NOTICE: ATI and INTEL chipsets are NOT supported to run Civilization VI LINUX. Don't meet the above requirements? Running on a unique distro? That doesn't mean your configuration wont run Civ VI! Visit the Civilization VI community page to share your experience with other Linux players and learn about how to send bugs to Aspyr. Your feedback will help us improve Civ VI Linux and future AAA Linux releases!"
+            }
+        },
+        "price": ""
+    },
+    "The Elder Scrolls IV: Oblivion Remastered": {
+        "config": {
+            "win": {
+                "Système d'exploitation": "Windows 10 version 21H1 (10.0.19043)",
+                "Processeur": "AMD Ryzen 5 2600X, Intel Core i7-6800K",
+                "Mémoire vive": "16 GB de mémoire",
+                "Graphiques": "AMD Radeon RX 5700, NVIDIA GeForce 1070 Ti",
+                "DirectX": "Version 12",
+                "Espace disque": "125 GB d'espace disque disponible",
+                "Notes supplémentaires": "SSD Required"
+            }
+        },
+        "price": "54,99€"
+    },
+    "tModLoader": {
+        "config": {
+            "win": {
+                "Système d'exploitation  *": "Windows 7 x64, 8/8.1 x64, 10, 11",
+                "Processeur": "Dual Core 3.0 Ghz",
+                "Mémoire vive": "16 GB de mémoire",
+                "Graphiques": "FNA Requirements:",
+                "DirectX": "Version 11",
+                "Espace disque": "20000 MB d'espace disque disponible",
+                "Notes supplémentaires": "tModLoader relies on NET 8 runtime. NET 8 requirements: . Additional Requirements may vary with installed Workshop Items",
+                "Système d'exploitation": "Windows 10, 11"
+            },
+            "mac": {
+                "Système d'exploitation": "OSX 12 Monterey or Higher",
+                "Processeur": "Dual Core 3.0 Ghz",
+                "Mémoire vive": "12 GB de mémoire",
+                "Graphiques": "FNA Requirements:",
+                "Espace disque": "20000 MB d'espace disque disponible",
+                "Notes supplémentaires": "tModLoader relies on NET 8 runtime. NET 8 requirements: . Additional Requirements may vary with installed Workshop Items"
+            },
+            "linux": {
+                "Système d'exploitation": "Ubuntu 16.04 LTS or higher",
+                "Processeur": "Dual Core 3.0 Ghz",
+                "Mémoire vive": "12 GB de mémoire",
+                "Graphiques": "FNA Requirements:",
+                "Espace disque": "20000 MB d'espace disque disponible",
+                "Notes supplémentaires": "tModLoader relies on NET 8 runtime. NET 8 requirements: . Additional Requirements may vary with installed Workshop Items"
+            }
+        },
+        "price": "Gratuit"
+    },
+    "Street Fighter™ 6": {
+        "config": {
+            "win": {
+                "Système d'exploitation": "Windows 10 (64 bit required)",
+                "Processeur": "Intel Core i5-7500 / AMD Ryzen 3 1200",
+                "Mémoire vive": "8 GB de mémoire",
+                "Graphiques": "GTX1060 (VRAM 6GB) / Radeon RX 580 (VRAM 4GB)",
+                "DirectX": "Version 12",
+                "Espace disque": "60 GB d'espace disque disponible",
+                "Notes supplémentaires": "- The framerate may drop during graphic-intensive scenes. - Additional storage is required for each subsequent update."
+            }
+        },
+        "price": "39,99€"
+    },
+    "Stellaris": {
+        "config": {
+            "win": {
+                "Système d'exploitation": "Windows® 10 Home 64 Bit",
+                "Processeur": "Intel® iCore™ i5-3570K or AMD® Ryzen™ 5 2400G",
+                "Mémoire vive": "4 GB de mémoire",
+                "Graphiques": "Nvidia® GeForce™ GTX 560 Ti (1GB VRAM) or AMD® Radeon™ R7 370 (2 GB VRAM)",
+                "DirectX": "Version 12",
+                "Réseau": "connexion internet haut débit",
+                "Espace disque": "10 GB d'espace disque disponible",
+                "Carte son": "DirectX 9.0c-compatible sound card",
+                "Notes supplémentaires": "Controller support: 3-button mouse, keyboard and speakers. Special multiplayer requirements: Internet Connection"
+            },
+            "mac": {
+                "Système d'exploitation": "13 (Ventura)",
+                "Processeur": "Intel® iCore™ i5-4670",
+                "Mémoire vive": "8 GB de mémoire",
+                "Graphiques": "Nvidia® GeForce™ GTX 780M with 4GB Vram or AMD® Radeon™ R7 370 (2 GB VRAM)",
+                "Réseau": "connexion internet haut débit",
+                "Espace disque": "10 GB d'espace disque disponible",
+                "Notes supplémentaires": "Controller support: 3-button mouse, keyboard and speakers. Special multiplayer requirements: Internet Connection"
+            },
+            "linux": {
+                "Système d'exploitation": "Ubuntu 20.04 x64",
+                "Processeur": "Intel® iCore™ i5-3570K or AMD® Ryzen™ 5 2400G",
+                "Mémoire vive": "4 GB de mémoire",
+                "Graphiques": "Nvidia® GeForce™ GTX 560 Ti (1GB VRAM) or AMD® Radeon™ R7 370 (2 GB VRAM)",
+                "Réseau": "connexion internet haut débit",
+                "Espace disque": "12 GB d'espace disque disponible",
+                "Carte son": "Direct X 9.0c- compatible sound card",
+                "Notes supplémentaires": "Controller support: 3-button mouse, keyboard and speakers. Special multiplayer requirements: Internet Connection"
+            }
+        },
+        "price": ""
+    },
+    "Geometry Dash": {
+        "config": {
+            "win": {
+                "Système d'exploitation  *": "Windows XP",
+                "Processeur": "2.0+ GHz",
+                "Mémoire vive": "512 MB de mémoire",
+                "Graphiques": "OpenGL 2.0 support",
+                "Espace disque": "100 MB d'espace disque disponible"
+            },
+            "mac": {
+                "Système d'exploitation": "Mac OS X 10.7",
+                "Processeur": "2.0+ GHz",
+                "Mémoire vive": "512 MB de mémoire",
+                "Graphiques": "OpenGL 2.0 support",
+                "Espace disque": "100 MB d'espace disque disponible"
+            }
+        },
+        "price": "4,99€"
+    },
+    "Overwatch® 2": {
+        "config": {
+            "win": {
+                "Système d'exploitation": "Windows® 10 64-bit (dernier service pack)",
+                "Processeur": "Intel® Core™ i3 ou AMD Phenom™ X3 8650",
+                "Mémoire vive": "6 GB de mémoire",
+                "Graphiques": "Série NVIDIA® GeForce® GTX 600, série AMD Radeon™ HD 7000",
+                "DirectX": "Version 11",
+                "Réseau": "connexion internet haut débit",
+                "Espace disque": "50 GB d'espace disque disponible"
+            }
+        },
+        "price": "Free-to-play"
+    },
+    "ARK: Survival Evolved": {
+        "config": {
+            "win": {
+                "Système d'exploitation  *": "Windows 7/8.1/10 (64-bit versions)",
+                "Processeur": "Intel Core i5-2400/AMD FX-8320 or better",
+                "Mémoire vive": "8 GB de mémoire",
+                "Graphiques": "NVIDIA GTX 670 2GB/AMD Radeon HD 7870 2GB or better",
+                "DirectX": "Version 10",
+                "Espace disque": "60 GB d'espace disque disponible",
+                "Notes supplémentaires": "Requires broadband internet connection for multiplayer"
+            },
+            "mac": {
+                "Système d'exploitation": "OSX 10.9 or Higher",
+                "Processeur": "2 GHz Equivalent CPU",
+                "Mémoire vive": "4000 MB de mémoire",
+                "Graphiques": "OpenGL 3 Compatible GPU with 1GB Video RAM",
+                "Espace disque": "20000 MB d'espace disque disponible"
+            }
+        },
+        "price": "14,79€"
+    },
+    "Terraria": {
+        "config": {
+            "win": {
+                "Système d'exploitation": "Windows XP, Vista, 7",
+                "Processeur": "1.6 Ghz",
+                "Mémoire vive": "512 Mo de RAM",
+                "Disque dur": "200 Mo d'espace disque disponible",
+                "Carte graphique": "Carte comportant 128 Mo de mémoire vidéo, avec support Shader Model 1.1",
+                "Version DirectX®": "9.0c ou ultérieure",
+                "OS": "Windows 7, 8/8.1, 10",
+                "Processor": "Dual Core 3.0 Ghz",
+                "Memory": "4GB",
+                "Hard Disk Space": "200MB",
+                "Video Card": "256mb Video Memory, capable of Shader Model 2.0+",
+                "DirectX®": "9.0c or Greater"
+            },
+            "mac": {
+                "OS": "OSX 10.9.5 - 10.11.6",
+                "Processor": "Dual Core 3.0 Ghz",
+                "Memory": "4GB",
+                "Hard Disk Space": "200MB",
+                "Video Card": "256mb Video Memory, capable of OpenGL 3.0+ support (2.1 with ARB extensions acceptable"
+            },
+            "linux": {
+                "OS": "Ubuntu 14.04 LTS",
+                "Processor": "Dual Core 3.0 Ghz",
+                "Memory": "4GB",
+                "Hard Disk Space": "200MB",
+                "Video Card": "256mb Video Memory, capable of OpenGL 3.0+ support (2.1 with ARB extensions acceptable"
+            }
+        },
+        "price": "9,75€"
+    },
+    "7 Days to Die": {
+        "config": {
+            "win": {
+                "Système d'exploitation": "Windows 10 or higher (64-bit)",
+                "Processeur": "3.2 Ghz Quad Core CPU or faster",
+                "Mémoire vive": "12 GB de mémoire",
+                "Graphiques": "4 GB Dedicated Memory",
+                "DirectX": "Version 11",
+                "Réseau": "connexion internet haut débit",
+                "Espace disque": "15 GB d'espace disque disponible",
+                "Carte son": "Sound Card: DirectX® Compatible",
+                "Notes supplémentaires": "Running a Dedicated Server and Client on the same computer will double ram requirements. Also future releases may require more hard drive space."
+            },
+            "mac": {
+                "Système d'exploitation": "10.13",
+                "Processeur": "3.2 Ghz Quad Core CPU or faster",
+                "Mémoire vive": "12 GB de mémoire",
+                "Graphiques": "4 GB Dedicated Memory",
+                "Réseau": "connexion internet haut débit",
+                "Espace disque": "15 GB d'espace disque disponible",
+                "Notes supplémentaires": "Running the Dedicated Server and Client on the same computer will double ram requirements. Also future releases may require more hard drive space."
+            },
+            "linux": {
+                "Système d'exploitation": "Ubuntu 18.04 (64-bit)",
+                "Processeur": "3.2 Ghz Quad Core CPU or faster",
+                "Mémoire vive": "12 GB de mémoire",
+                "Graphiques": "4 GB Dedicated Memory",
+                "Réseau": "connexion internet haut débit",
+                "Espace disque": "15 GB d'espace disque disponible",
+                "Notes supplémentaires": "Running the Dedicated Server and Client on the same computer will double ram requirements. Also future releases may require more hard drive space."
+            }
+        },
+        "price": "43,99€"
+    },
+    "Monster Hunter: World": {
+        "config": {
+            "win": {
+                "Système d'exploitation": "WINDOWS® 10 (64 bits requis)",
+                "Processeur": "Intel®Core™ i5 4460 ou Core™ i3 9100F ou AMD FX™-6300 ou Ryzen™ 3 3200G",
+                "Mémoire vive": "8 GB de mémoire",
+                "Graphiques": "NVIDIA®GeForce®GTX 760 ou GTX1050 ou AMD Radeon™ R7 260x ou RX 560",
+                "DirectX": "Version 11",
+                "Réseau": "connexion internet haut débit",
+                "Espace disque": "52 GB d'espace disque disponible"
+            }
+        },
+        "price": "29,99€"
+    },
+    "The Sims™ 4": {
+        "config": {
+            "win": {
+                "Système d'exploitation": "64 bits requis. Windows 10",
+                "Processeur": "3,3 GHz Intel Core i3-3220 (2 cœurs, 4 threads), 3,1 GHz AMD Ryzen 3 1200 (4 cœurs) ou supérieur",
+                "Mémoire vive": "4 GB de mémoire",
+                "Graphiques": "128 Mo de RAM vidéo et compatibilité avec Pixel Shader 3.0. Cartes graphiques compatibles : NVIDIA GeForce 6600 ou supérieure, ATI Radeon X1300 ou supérieure, Intel GMA X4500 ou supérieure",
+                "DirectX": "Version 11"
+            }
+        },
+        "price": "Free-to-play"
+    }
+}

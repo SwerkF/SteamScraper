@@ -1,0 +1,70 @@
+[{
+  "_id": {
+    "$oid": "681f4a4d6895aa8af0d861e5"
+  },
+  "id": 1,
+  "name": "Windows 10"
+},
+{
+  "_id": {
+    "$oid": "681f4a4d6895aa8af0d861e6"
+  },
+  "id": 2,
+  "name": "Windows 11"
+},
+{
+  "_id": {
+    "$oid": "681f4a4d6895aa8af0d861e7"
+  },
+  "id": 3,
+  "name": "Linux"
+},
+{
+  "_id": {
+    "$oid": "681f4a4d6895aa8af0d861e8"
+  },
+  "id": 4,
+  "name": "MacOS"
+},
+{
+  "_id": {
+    "$oid": "6821b438345b280235adc554"
+  },
+  "name": "Windows 7"
+},
+{
+  "_id": {
+    "$oid": "68220e44ae34e035bee8ec04"
+  },
+  "name": "os big sur v. 10.16 or newer"
+},
+{
+  "_id": {
+    "$oid": "68220e44ae34e035bee8ec06"
+  },
+  "name": "11/12/13 with updates"
+},
+{
+  "_id": {
+    "$oid": "68220e44ae34e035bee8ec08"
+  },
+  "name": "Windows 8"
+},
+{
+  "_id": {
+    "$oid": "68220e44ae34e035bee8ec0b"
+  },
+  "name": "10.14.6 (mojave)"
+},
+{
+  "_id": {
+    "$oid": "68220e44ae34e035bee8ec0c"
+  },
+  "name": "13 (ventura)"
+},
+{
+  "_id": {
+    "$oid": "68220e44ae34e035bee8ec10"
+  },
+  "name": "10.13"
+}]

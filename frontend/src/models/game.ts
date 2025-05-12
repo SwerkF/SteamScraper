@@ -2,9 +2,15 @@ export interface Game {
   id: number;
   name: string;
   description: string;
-  image: string;
+  image_url: string;
   price: number;
+  store_url: string;
+  app_id: number;
+  developer: string;
+  supported_systems: string;
   requirements: GameRequirements;
+  release_date: string;
+  publisher: string;
 }
 
 export interface GameRequirements {

@@ -24,9 +24,15 @@ class SteamscrapyPipeline:
 
             if hardware_type == "gpu":
                 db.gpu.insert_one(dict(item))
-                spider.logger.info(f"GPU saved to MongoDB: {adapter.get('name')}")
+                log_message = f"GPU saved to MongoDB: {adapter.get('name')}"
+                spider.logger.info(log_message)
+                with open('logger.txt', 'a') as f:
+                    f.write(f"{log_message}\n")
             elif hardware_type == "cpu":
                 db.cpu.insert_one(dict(item))
-                spider.logger.info(f"CPU saved to MongoDB: {adapter.get('name')}")
+                log_message = f"CPU saved to MongoDB: {adapter.get('name')}"
+                spider.logger.info(log_message)
+                with open('logger.txt', 'a') as f:
+                    f.write(f"{log_message}\n")
 
         return item
