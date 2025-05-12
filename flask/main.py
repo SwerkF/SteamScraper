@@ -42,7 +42,6 @@ def get_games():
         if price_condition:
             match_conditions["$or"] = [
                 {"price": price_condition},
-                {"price": "Free-to-play"}
             ]
 
     # Logique pour le filtrage CPU
@@ -126,18 +125,36 @@ def get_games():
 
     # Filtrage par OS
     if os_name:
-        os = db.os.find_one({"name": os_name})
-        if os:
-            os_id = os["_id"]
+        windows_compatibility = {
+            "Windows 7": ["Windows 7"],
+            "Windows 8": ["Windows 7", "Windows 8"],
+            "Windows 10": ["Windows 7", "Windows 8", "Windows 10"],
+            "Windows 11": ["Windows 7", "Windows 8", "Windows 10", "Windows 11"]
+        }
+
+        compatible_os = []
+        if os_name in windows_compatibility:
+            compatible_versions = windows_compatibility[os_name]
+            compatible_os = list(db.os.find({"name": {"$in": compatible_versions}}, {"_id": 1}))
+            os_ids = [os["_id"] for os in compatible_os]
+
             pipeline.append({
                 "$match": {
-                    "$or": [
-                        {"system_requirements.win.os.refs": os_id},
-                        {"system_requirements.mac.os.refs": os_id},
-                        {"system_requirements.linux.os.refs": os_id}
-                    ]
+                    "system_requirements.win.os.refs": {"$in": os_ids}
                 }
             })
+        else:
+            os = db.os.find_one({"name": os_name})
+            if os:
+                os_id = os["_id"]
+                pipeline.append({
+                    "$match": {
+                        "$or": [
+                            {"system_requirements.mac.os.refs": os_id},
+                            {"system_requirements.linux.os.refs": os_id}
+                        ]
+                    }
+                })
 
     # Pagination
     skip = (page - 1) * 9
